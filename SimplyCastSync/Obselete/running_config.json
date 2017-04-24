@@ -1,0 +1,15 @@
+{
+  "version": "0.01",
+  "interval": 300,
+  "logdir": "logs",
+  "consolelog": {
+    "message": [],
+    "warning": [],
+    "error": []
+  },
+  "servicelog": {
+    "message": [],
+    "warning": [],
+    "error": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.01",
+  "groups": {
+    "time": {
+      "accept": [ "y", "M", "d", "h", "m" ],
+      "prefix": [ "%d", "n,p" ]
+    },
+    "id": {
+      "prefix": [ "%d", "n,p" ]
+    }
+  }
+}

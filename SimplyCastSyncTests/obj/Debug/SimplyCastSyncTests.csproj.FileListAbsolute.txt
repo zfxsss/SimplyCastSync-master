@@ -1,0 +1,10 @@
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\SimplyCastSyncTests.dll
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\SimplyCastSyncTests.pdb
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\SimplyCastSync.dll
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\SimplyCastSync.pdb
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\projects\SimplyCastSync\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.csprojResolveAssemblyReference.cache
+C:\projects\SimplyCastSync\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.dll
+C:\projects\SimplyCastSync\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.pdb
+C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\JsonTemplate\simplycast_emptycontacts.json

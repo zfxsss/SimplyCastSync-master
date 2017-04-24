@@ -1,0 +1,61 @@
+{
+  "version": "0.01",
+  "pairs": [
+    {
+      "source": {
+        "ds": "firstsrcds",
+        "dstype": "DataSet",
+        "uniquefield": "id",
+        "keyfields": [ "name" ],
+        "valuefields": [ "mytime", "age" ],
+        "querystring": "select * from table_test1"
+      },
+      "destination": {
+        "ds": "firstdstds",
+        "dstype": "JObject",
+        "fields": {
+          "uniquefieldname": "id",
+          "uniquefieldpath": "$.contacts[id]",
+          "keyfieldsname": [ "name" ],
+          "keynametag": "name",
+          "keyvaluetag": "value",
+          "otherfieldsname": [ "mytime", "age" ],
+          "othernametag": "name",
+          "othervaluetag": "value",
+          "existingpath": "$.contacts[?(@..##keynametag##=='???' && @..##keyvaluetag##=='***' && @..##keynametag##=='???' && @..##keyvaluetag##=='***')]",
+          "equalpath": "$.contacts[?(@..##keynametag##=='???' && @..##keyvaluetag##=='***' && @..##keynametag##=='???' && @..##keyvaluetag##=='***' && @..##othernametag##=='%%%' && @..##othervaluetag##=='###' && @..##othernametag##=='%%%' && @..##othervaluetag##=='###' && @..##othernametag##=='%%%' && @..##othervaluetag##=='###')]",
+          "querystring": "contactmanager/contacts?query=`1` = \"{1}\""
+          //"querystring": "contactmanager/contacts?query=`23` = \"zhefeng_xu@hotmail.com\" AND `1` = \"hi\""
+        }
+      },
+      "syncstrategy": "DataSetToSimplyCastAPI"
+    }
+  ],
+  "running": {
+    "interval": 300,
+    "logdir": "logs",
+    "loginput": "Console_File",
+    "consolelog": {
+      "message": [],
+      "warning": [],
+      "error": []
+    },
+    "servicelog": {
+      "message": [],
+      "warning": [],
+      "error": []
+    }
+  },
+  "datasource": [
+    {
+      "name": "firstsrcds",
+      "queryname": "FoxproData",
+      "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\Users\\zhefeng\\Documents\\Foxpro;"
+    },
+    {
+      "name": "firstdstds",
+      "queryname": "SimplyCastWebApi",
+      "connstr": "UpdateAddress=https://app.simplycast.com;QueryAddress=https://api.simplycast.com;PublicKey=a8fe3712113090e5666a6b374452dc930d710553;SecretKey=7dc2feccd12ec26534a405c611f0134481c3394e;"
+    }
+  ]
+}

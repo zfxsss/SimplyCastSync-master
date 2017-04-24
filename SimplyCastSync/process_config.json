@@ -1,0 +1,64 @@
+{
+  "version": "0.01",
+  "pairs": [
+    {
+      "source": {
+        "ds": "firstsrcds",
+        "table": [ "table1_src", "table_view" ], //["select * from person a inner join appointment b on a.id = b.personid", "sql"]
+        "uniquefield": "id",
+        "keyfields": [ "k1", "k2" ],
+        "valuefields": [ "v1", "v2", "v3" ],
+        "rangefield": [ "created", "time", "-30d", "now" ]
+      },
+      "destination": {
+        "ds": "firstdstds",
+        "table": "table1_dst",
+        "uniquefield": "id",
+        "keyfields": [ "k1d", "k2d" ],
+        "valuefields": [ "v1d", "v2d", "v3d" ],
+        "rangefield": [ "created", "time", "-30d", "now" ]
+      }
+    },
+    {
+      "source": {
+        "ds": "firstdstds",
+        "table": "table1_dst",
+        "uniquefield": "id",
+        "keyfields": [ "k1d", "k2d" ],
+        "valuefields": [ "v4d", "v5d", "v6d" ],
+        "rangefield": [ "created", "time", "-30d", "now" ]
+      },
+      "destination": {
+        "ds": "firstsrcds",
+        "table": "table1_src",
+        "uniquefield": "id",
+        "keyfields": [ "k1", "k2" ],
+        "valuefields": [ "v4", "v5", "v6" ],
+        "rangefield": [ "created", "time", "-30d", "now" ]
+      }
+    }
+  ],
+  "running": {
+    "interval": 300,
+    "logdir": "logs",
+    "consolelog": {
+      "message": [],
+      "warning": [],
+      "error": []
+    },
+    "servicelog": {
+      "message": [],
+      "warning": [],
+      "error": []
+    }
+  },
+  "fetchrangefieldtype": {
+    "time": {
+      "accept": [ "y", "M", "d", "h", "m" ],
+      "prefix": [ "%d", "n,p" ]
+    },
+    "id": {
+      "prefix": [ "%d", "n,p" ]
+    }
+  }
+}
