@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using SimplyCastSync.PubLib.Log;
 using SimplyCastSync.Config;
 
-namespace SimplyCastSync.DomainException
+namespace SimplyCastSync.Exceptions
 {
     /// <summary>
     /// 
@@ -19,13 +19,34 @@ namespace SimplyCastSync.DomainException
         /// </summary>
         /// <param name="ex"></param>
         /// <param name="domain"></param>
-        public DomainException(Exception ex, string domain)
+        public DomainException(string msg, ExceptionSrc excepsrc, ExceptionType exceptype) : base(msg)
         {
             AddExceptionLog(new ExceptionBody
             {
-
+                es = excepsrc,
+                et = exceptype,
+                info = msg,
+                ts = DateTime.Now
             },
             GetLogInputEnum(ConfigRepository.Content["running"]["loginput"].ToString()));
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="msg"></param>
+        /// <param name="excepsrc"></param>
+        /// <param name="exceptype"></param>
+        /// <param name="lt"></param>
+        public DomainException(string msg, ExceptionSrc excepsrc, ExceptionType exceptype, LogType lt) : base(msg)
+        {
+            AddExceptionLog(new ExceptionBody
+            {
+                es = excepsrc,
+                et = exceptype,
+                info = msg,
+                ts = DateTime.Now
+            }, lt);
         }
 
         /// <summary>

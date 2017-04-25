@@ -3,6 +3,7 @@ using System.IO;
 using Newtonsoft.Json.Linq;
 
 using static SimplyCastSync.PubLib.Log.Log;
+using SimplyCastSync.Exceptions;
 
 namespace SimplyCastSync.Config
 {
@@ -30,8 +31,8 @@ namespace SimplyCastSync.Config
                 }
                 catch (Exception ex)
                 {
-                    AddExceptionLog(new PubLib.Log.ExceptionBody { }, PubLib.Log.LogType.Console_File);
-                    return null;
+                    throw new DomainException(ex.Message, PubLib.Log.ExceptionSrc.Init, PubLib.Log.ExceptionType.System, PubLib.Log.LogType.Console);
+
                 }
             }
 

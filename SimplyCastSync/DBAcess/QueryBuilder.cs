@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SimplyCastSync.Exceptions;
 
 namespace SimplyCastSync.DBAccess
 {
@@ -34,7 +35,9 @@ namespace SimplyCastSync.DBAccess
                 return new SimplyCastWebApiQuery(connstr) as IQuery<T>;
             }
             else
-                throw new Exception("");
+            {
+                throw new DomainException("Query Type Not Supported", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Error);
+            }
 
         }
 

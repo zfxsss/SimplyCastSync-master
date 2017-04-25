@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 
 using static SimplyCastSync.PubLib.Log.Log;
+using SimplyCastSync.Exceptions;
 
 namespace SimplyCastSync.PubLib.Log
 {
@@ -52,14 +53,15 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         public static void ExitConsoleLogTask()
         {
-            AddExceptionLog(
-                new ExceptionBody
-                {
-                    es = ExceptionSrc.Exit,
-                    et = ExceptionType.Notification,
-                    info = "Exiting Console's Logging Task",
-                    ts = DateTime.Now
-                }, LogType.Console_File);
+            new DomainException("Exiting Console's Logging Task", ExceptionSrc.Exit, ExceptionType.Notification);
+            //AddExceptionLog(
+            //    new ExceptionBody
+            //    {
+            //        es = ExceptionSrc.Exit,
+            //        et = ExceptionType.Notification,
+            //        info = "Exiting Console's Logging Task",
+            //        ts = DateTime.Now
+            //    }, LogType.Console_File);
         }
 
         /// <summary>
@@ -67,14 +69,15 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         public static void ExitFileLogTask()
         {
-            AddExceptionLog(
-                new ExceptionBody
-                {
-                    es = ExceptionSrc.Exit,
-                    et = ExceptionType.Notification,
-                    info = "Exiting File's Logging Task",
-                    ts = DateTime.Now
-                }, LogType.Console_File);
+            new DomainException("Exiting File's Logging Task", ExceptionSrc.Exit, ExceptionType.Notification);
+            //AddExceptionLog(
+            //    new ExceptionBody
+            //    {
+            //        es = ExceptionSrc.Exit,
+            //        et = ExceptionType.Notification,
+            //        info = "Exiting File's Logging Task",
+            //        ts = DateTime.Now
+            //    }, LogType.Console_File);
         }
     }
 }

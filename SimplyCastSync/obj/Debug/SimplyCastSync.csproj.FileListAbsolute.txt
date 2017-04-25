@@ -8,3 +8,23 @@ C:\projects\SimplyCastSync\SimplyCastSync\bin\Debug\MySql.Data.dll
 C:\projects\SimplyCastSync\SimplyCastSync\bin\Debug\MySql.Data.xml
 C:\projects\SimplyCastSync\SimplyCastSync\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
 C:\projects\SimplyCastSync\SimplyCastSync\obj\Debug\SimplyCastSync.csprojResolveAssemblyReference.cache
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\SimplyCastSync.dll
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\SimplyCastSync.pdb
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.dll
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.pdb
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\JsonTemplate\simplycast_updatecontact.json
+C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.csprojResolveAssemblyReference.cache
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.csprojResolveAssemblyReference.cache
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.dll
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\JsonTemplate\simplycast_updatecontact.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\SimplyCastSync.dll
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\SimplyCastSync.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\MySql.Data.dll
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\MySql.Data.xml
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\Newtonsoft.Json.xml
