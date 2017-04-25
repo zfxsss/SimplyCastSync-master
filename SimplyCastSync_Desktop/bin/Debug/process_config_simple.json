@@ -19,35 +19,33 @@
           "uniquefieldname": "id",
           "uniquefieldpath": "$.contacts[{i}].id",
           "keyfieldsname": [ "REFNUM" ],
-          "keyfieldsindex": [ "120" ],
           "keynametag": "name",
           "keyvaluetag": "value",
-          "otherfieldsname": [ "email", "zip" ],
-          "otherfieldsindex": [ "23", "10" ],
+          "otherfieldsname": [ "EMAIL", "POSTCODE" ],
           "othernametag": "name",
           "othervaluetag": "value",
           "existingjsonpath": "$.contacts[0].id"
         },
-        "querystring": "contactmanager/contacts?query=`120` = \"{1}\"",
-        "updatestring": "?q=api/call&request=contactmanager/contacts/{1}",
-        "addstring": "?q=api/call&request=contactmanager/contacts"
+        "querystring": "contactmanager/contacts?query=`1` = \"{1}\"",
+        "updatestring": "",
+        "addstring": ""
       },
       "syncstrategy": "DataSetToSimplyCastAPI"
     }
   ],
   "running": {
-    "interval": 100,
+    "interval": 300,
     "logdir": "logs",
     "loginput": "Console_File",
     "consolelog": {
-      "message": [ ],
-      "warning": [ ],
-      "error": [ ]
+      "message": [],
+      "warning": [],
+      "error": []
     },
     "servicelog": {
-      "message": [ ],
-      "warning": [ ],
-      "error": [ ]
+      "message": [],
+      "warning": [],
+      "error": []
     }
   },
   "datasource": [

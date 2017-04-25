@@ -8,13 +8,3 @@ C:\projects\SimplyCastSync\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.csp
 C:\projects\SimplyCastSync\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.dll
 C:\projects\SimplyCastSync\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.pdb
 C:\projects\SimplyCastSync\SimplyCastSyncTests\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSyncTests.dll
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSyncTests.pdb
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSync.dll
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSync.pdb
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.csprojResolveAssemblyReference.cache
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.dll
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.pdb
-C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\JsonTemplate\simplycast_updatecontact.json

@@ -9,8 +9,7 @@ namespace SimplyCastSync.PubLib.Log
         Error = 0,
         Warning,
         Notification,
-        Message,
-        System
+        Message
     }
 
     /// <summary>

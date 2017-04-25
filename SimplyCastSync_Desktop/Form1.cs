@@ -13,7 +13,6 @@ using static SimplyCastSync.Config.ConfigRepository;
 using Newtonsoft.Json.Linq;
 using static SimplyCastSync.Runtime.EngineRuntime;
 using SimplyCastSync.SimplyCast_Sunix;
-using SimplyCastSync.Runtime;
 
 namespace SimplyCastSync_Desktop
 {
@@ -52,6 +51,8 @@ namespace SimplyCastSync_Desktop
                 }
             }
 
+
+
         }
 
         /// <summary>
@@ -66,7 +67,7 @@ namespace SimplyCastSync_Desktop
 
         private void syncsimple_btn_Click(object sender, EventArgs e)
         {
-            Runtime.Run(Comparer.Sync);
+            Comparer.Sync();
         }
     }
 }

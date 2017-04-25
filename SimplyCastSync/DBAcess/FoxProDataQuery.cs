@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Data;
 using System.Data.OleDb;
-using SimplyCastSync.PubLib.Log;
-
-using static SimplyCastSync.PubLib.Log.Log;
-using SimplyCastSync.Exceptions;
 
 namespace SimplyCastSync.DBAccess
 {
@@ -24,37 +20,24 @@ namespace SimplyCastSync.DBAccess
         /// <returns></returns>
         public DataSet GetData(string querystr)
         {
-            try
+            DataSet ds = new DataSet();
+            using (OleDbConnection conn = new OleDbConnection(_connstr))
+            using (OleDbCommand comm = new OleDbCommand(querystr, conn))
+            using (OleDbDataAdapter adapter = new OleDbDataAdapter(comm))
             {
-                DataSet ds = new DataSet();
-                using (OleDbConnection conn = new OleDbConnection(_connstr))
-                using (OleDbCommand comm = new OleDbCommand(querystr, conn))
-                using (OleDbDataAdapter adapter = new OleDbDataAdapter(comm))
+                try
                 {
-
                     adapter.Fill(ds);
-                    foreach (DataRow row in ds.Tables[0].Rows)
-                    {
-                        for (int i = 0; i < ds.Tables[0].Columns.Count; i++)
-                        {
-                            if (row[i].GetType() == typeof(string))
-                            {
-                                row[i] = row[i] == null ? "" : ((string)row[i]).Trim();
-                            }
-                        }
-                    }
-                    ds.AcceptChanges();
-
                     return ds;
                 }
-            }
-            catch (Exception ex)
-            {
-                // add log
-                throw new DomainException(ex.Message, ExceptionSrc.Processing, ExceptionType.Error);
+                catch (Exception ex)
+                {
+                    // add log
 
-                //return null;
+                    return null;
+                }
             }
+
         }
 
         /// <summary>
@@ -81,9 +64,6 @@ namespace SimplyCastSync.DBAccess
         public FoxproDataQuery(string connstr)
         {
             _connstr = connstr;
-
-            // add log
-            new DomainException("Foxpro Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Message);
         }
 
     }

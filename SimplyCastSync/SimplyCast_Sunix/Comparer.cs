@@ -10,7 +10,6 @@ using System.Data;
 using SimplyCastSync.DBAccess;
 using Newtonsoft.Json;
 using SimplyCastSync.CompareEngine.Strategy.Utility;
-using SimplyCastSync.Exceptions;
 
 namespace SimplyCastSync.SimplyCast_Sunix
 {
@@ -34,49 +33,38 @@ namespace SimplyCastSync.SimplyCast_Sunix
                     //string syncstrategy = "";
                     foreach (var pair in pairsconfig)
                     {
-                        try
+                        src = pair["source"] as JObject;
+                        dest = pair["destination"] as JObject;
+
+                        var src_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["source"]["ds"].ToString()).First();
+                        var dest_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["destination"]["ds"].ToString()).First();
+
+                        // DataSet => JObject
+                        if ((src["dstype"].ToString() == "DataSet") && (dest["dstype"].ToString() == "JObject"))
                         {
-                            src = pair["source"] as JObject;
-                            dest = pair["destination"] as JObject;
+                            IQuery<DataSet> q_src = QueryBuilder.DsBuilder.GetQuery<DataSet>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
+                            IQuery<JObject> q_dest = QueryBuilder.DsBuilder.GetQuery<JObject>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
 
-                            var src_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["source"]["ds"].ToString()).First();
-                            var dest_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["destination"]["ds"].ToString()).First();
-
-                            // DataSet => JObject
-                            if ((src["dstype"].ToString() == "DataSet") && (dest["dstype"].ToString() == "JObject"))
-                            {
-                                IQuery<DataSet> q_src = QueryBuilder.DsBuilder.GetQuery<DataSet>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
-                                IQuery<JObject> q_dest = QueryBuilder.DsBuilder.GetQuery<JObject>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
-
-                                SunixToSimplyCast(q_src, q_dest, (JObject)pair);
-                            }
-                            // JObject => DataSet
-                            else if ((src["dstype"].ToString() == "JObject") && (dest["dstype"].ToString() == "DataSet"))
-                            {
-                                IQuery<JObject> q_src = QueryBuilder.DsBuilder.GetQuery<JObject>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
-                                IQuery<DataSet> q_dest = QueryBuilder.DsBuilder.GetQuery<DataSet>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
-
-                                SimplyCastToSunix(q_src, q_dest, (JObject)pair);
-                            }
-                            // not supported
-                            else
-                                throw new DomainException("Sync Pair Not Supported", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Error);
+                            SunixToSimplyCast(q_src, q_dest, (JObject)pair);
                         }
-                        catch (Exception ex)
+                        // JObject => DataSet
+                        else if ((src["dstype"].ToString() == "JObject") && (dest["dstype"].ToString() == "DataSet"))
                         {
+                            IQuery<JObject> q_src = QueryBuilder.DsBuilder.GetQuery<JObject>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
+                            IQuery<DataSet> q_dest = QueryBuilder.DsBuilder.GetQuery<DataSet>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
 
+                            SimplyCastToSunix(q_src, q_dest, (JObject)pair);
                         }
+                        // not supported
+                        else
+                            throw new Exception("");
 
                     }
-                }
-                else
-                {
-                    throw new DomainException("Synchronization Configuration Not Found", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.System, PubLib.Log.LogType.Console);
                 }
             }
             else
             {
-                throw new DomainException("Configuration Not Found", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.System, PubLib.Log.LogType.Console);
+                throw new Exception("Null Configuration");
             }
 
         };
@@ -90,17 +78,16 @@ namespace SimplyCastSync.SimplyCast_Sunix
 
             var src = JsonConvert.SerializeObject(source, Formatting.Indented);
             var jsrc = JObject.Parse(src);
-            source.Dispose();
 
             foreach (var srd in jsrc.First.Values())
             {
+
                 var keyparams = new List<JToken>();
                 int i = 0;
 
                 foreach (var param in config["source"]["fields"]["keyfields"])
                 {
-                    //keyparams.Add(new JProperty(((JArray)config["destination"]["fields"]["keyfieldsname"])[i].ToString(), srd[param.Value<string>().ToLower()]));
-                    keyparams.Add(new JProperty(((JArray)config["destination"]["fields"]["keyfieldsindex"])[i].ToString(), srd[param.Value<string>().ToLower()]));
+                    keyparams.Add(new JProperty(((JArray)config["destination"]["fields"]["keyfieldsname"])[i].ToString(), srd[param.Value<string>().ToLower()]));
                     i++;
                 }
 
@@ -112,8 +99,7 @@ namespace SimplyCastSync.SimplyCast_Sunix
 
                 foreach (var param in config["source"]["fields"]["valuefields"])
                 {
-                    //valueparams.Add(new JProperty(((JArray)config["destination"]["fields"]["otherfieldsname"])[j].ToString(), srd[param.Value<string>().ToLower()]));
-                    valueparams.Add(new JProperty(((JArray)config["destination"]["fields"]["otherfieldsindex"])[j].ToString(), srd[param.Value<string>().ToLower()]));
+                    valueparams.Add(new JProperty(((JArray)config["destination"]["fields"]["otherfieldsname"])[j].ToString(), srd[param.Value<string>().ToLower()]));
                     j++;
                 }
 
@@ -127,7 +113,7 @@ namespace SimplyCastSync.SimplyCast_Sunix
                 //existing
                 if (token_existing != null)
                 {
-                    var changerow = new JObject(keyparams.Union(valueparams).ToArray().Where(x => ((JArray)config["destination"]["fields"]["otherfieldsindex"]).Values<string>().Contains(((JProperty)x).Name)));
+                    var changerow = new JObject(keyparams.Union(valueparams).ToArray().Where(x => ((JArray)config["destination"]["fields"]["otherfieldsname"]).Values<string>().Contains(((JProperty)x).Name)));
                     changerow.Add("_rdstatus", new JValue("update"));
                     changerow.Add("_id", (JValue)token_existing);
                     var changeset = new JArray(changerow);
@@ -139,11 +125,12 @@ namespace SimplyCastSync.SimplyCast_Sunix
                 //not existing
                 else
                 {
-                    var changerow = new JObject(keyparams.Union(valueparams).ToArray());
+                    var changerow = new JObject(keyparams.Union(valueparams).ToArray().Where(x => ((JArray)config["destination"]["fields"]["otherfieldsname"]).Values<string>().Contains(((JProperty)x).Name)));
                     changerow.Add("_rdstatus", new JValue("add"));
                     var changeset = new JArray(changerow);
                     destination.Add("_changeset", changeset);
                 }
+
                 destquery.UpdateData(destination, new string[] { updatestr, addstr });
 
             }

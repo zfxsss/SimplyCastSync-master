@@ -1,7 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
 using SimplyCastSync.CompareEngine.Strategy.Utility;
-using SimplyCastSync.Exceptions;
-using SimplyCastSync.PubLib.Log;
 using System;
 using System.IO;
 using System.Net.Http;
@@ -56,41 +54,37 @@ namespace SimplyCastSync.DBAccess
         /// <returns></returns>
         public JObject GetData(string querystr)
         {
-            try
+            using (var client = new HttpClient())
             {
-                using (var client = new HttpClient())
+                try
                 {
                     AddMetaData(client, "query");
-                    using (var gettask = client.GetAsync(querystr))
+                    var gettask = client.GetAsync(querystr);
+                    gettask.Wait(TimeSpan.FromSeconds(15));
+                    if (gettask.Result.StatusCode == System.Net.HttpStatusCode.OK)
                     {
-                        gettask.Wait(TimeSpan.FromSeconds(15));
-                        if (gettask.Result.StatusCode == System.Net.HttpStatusCode.OK)
-                        {
-                            using (var readtask = gettask.Result.Content.ReadAsStringAsync())
-                            {
-                                readtask.Wait();
-                                return JObject.Parse(readtask.Result);
-                            }
-                        }
-                        else if (gettask.Result.StatusCode == System.Net.HttpStatusCode.NoContent)
-                        {
-                            // need modify for configurable files, how to config file route......
-                            return JObject.Parse(File.ReadAllText(@"JsonTemplate\simplycast_emptycontacts.json"));
-                        }
-                        else
-                        {
-                            throw new Exception("Unknown Response Status");
-                        }
+                        var readtask = gettask.Result.Content.ReadAsStringAsync();
+                        readtask.Wait();
+                        return JObject.Parse(readtask.Result);
+                    }
+                    else if (gettask.Result.StatusCode == System.Net.HttpStatusCode.NoContent)
+                    {
+                        // need modify for configurable files, how to config file route......
+                        return JObject.Parse(File.ReadAllText(@"JsonTemplate\simplycast_emptycontacts.json"));
+                    }
+                    else
+                    {
+                        throw new Exception("");
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                // add log
-                throw new DomainException(ex.Message, PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Error);
+                catch (Exception ex)
+                {
+                    // add log
 
-                //return null;
+                    return null;
+                }
             }
+
         }
 
         /// <summary>
@@ -103,10 +97,11 @@ namespace SimplyCastSync.DBAccess
         {
             //need extras to thell httpclient the exact address of update
             //and this method has the knowledge of msg body format
-            try
+
+            //opertaion of HttpClient
+            using (var client = new HttpClient())
             {
-                //opertaion of HttpClient
-                using (var client = new HttpClient())
+                try
                 {
                     var changeset = ds["_changeset"];
 
@@ -130,41 +125,23 @@ namespace SimplyCastSync.DBAccess
                             }
 
                             AddMetaData(client, "update");
-
-                            using (var updatetask = client.PostAsync(querystring, new StringContent(CreateBodyString((JObject)rd), Encoding.UTF8, "application/json")))
-                            {
-                                updatetask.Wait();
-                            }
-
+                            var updatetask = client.PostAsync(querystring, new StringContent(((JObject)rd).ToString(), Encoding.UTF8, "application/json"));
+                            updatetask.Wait();
                         }
                     }
                 }
+                catch (Exception ex)
+                {
+
+                }
 
             }//end of using
-            catch (Exception ex)
-            {
-                new DomainException(ex.Message, ExceptionSrc.Processing, ExceptionType.Error);
-            }
 
         }//end of method
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        private string CreateBodyString(JObject body)
-        {
-            var newbody = JObject.Parse(File.ReadAllText(@"JsonTemplate\simplycast_updatecontact.json"));
-            foreach (var p in body)
-            {
-                var newitem = new JObject();
-                newitem.Add("id", p.Key);
-                newitem.Add("value", p.Value);
-                ((JArray)newbody["contact"]["fields"]).Add(newitem);
-            }
 
-            return newbody.ToString();
-        }
+
+
 
         /// <summary>
         /// 
@@ -202,9 +179,6 @@ namespace SimplyCastSync.DBAccess
             }
 
             key = Convert.ToBase64String(Encoding.ASCII.GetBytes(pubkey + ":" + secretkey));
-
-            // add log
-            new DomainException("SimplyCastWebApi Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Message);
         }
     }
 }
