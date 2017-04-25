@@ -1,4 +1,6 @@
-﻿using SimplyCastSync.PubLib.Log;
+﻿using SimplyCastSync.Exceptions;
+using SimplyCastSync.PubLib.Log;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,7 +50,7 @@ namespace SimplyCastSync.Runtime
         /// <summary>
         /// 
         /// </summary>
-        private Task task;
+        public Task T { get; private set; }
 
         /// <summary>
         /// 
@@ -80,25 +82,44 @@ namespace SimplyCastSync.Runtime
         /// <returns></returns>
         public TaskStatus Run(Action doit)
         {
-            if (task == null)
+            if (T == null)
             {
-                task = Task.Run(() =>
+                T = Task.Run(() =>
                  {
+                     var t_consolelog = LogMgr.ConsoleLogTask;
+                     var t_filelog = LogMgr.FileLogTask;
+
+                     new DomainException("Sync Worker Launched", ExceptionSrc.Init, ExceptionType.Notification, LogType.Console);
                      while (!Exit)
                      {
                          //RuntimeTimer
                          if (RTT.Timeout())
                          {
-                             doit();
+                             try
+                             {
+                                 doit();
+                             }
+                             catch (Exception ex)
+                             {
+
+                             }
                          }
                          Thread.Sleep(1000);
                      }
 
-                     Log.AddExceptionLog(new ExceptionBody { }, LogType.Console_File);
+                     LogMgr.ExitConsoleLogTask();
+                     LogMgr.ExitFileLogTask();
+
+                     t_consolelog.Wait();
+                     t_filelog.Wait();
+
+                     new DomainException("Sync Worker Exited", ExceptionSrc.Cleanup, ExceptionType.Notification, LogType.Console);
+
+                     //Log.AddExceptionLog(new ExceptionBody { }, LogType.Console_File);
                  });
             }
 
-            return task.Status;
+            return T.Status;
         }
 
         /// <summary>
@@ -108,7 +129,7 @@ namespace SimplyCastSync.Runtime
         {
             mutex = new object();
             exit = false;
-            task = null;
+            T = null;
         }
     }
 }
