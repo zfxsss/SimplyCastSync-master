@@ -25,7 +25,7 @@ namespace SimplyCastSync.PubLib.Log
         {
             get
             {
-                if (_consolelogtask == null) //&&
+                if ((_consolelogtask == null) || (_consolelogtask.Status == TaskStatus.RanToCompletion))
                 {
                     _consolelogtask = LogExportAsync.ExportConsoleLogAsync();
                 }
@@ -40,7 +40,7 @@ namespace SimplyCastSync.PubLib.Log
         {
             get
             {
-                if (_filelogtask == null) //&&
+                if ((_filelogtask == null) || (_filelogtask.Status == TaskStatus.RanToCompletion))
                 {
                     _filelogtask = LogExportAsync.ExportFileLogAsync();
                 }
@@ -53,7 +53,7 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         public static void ExitConsoleLogTask()
         {
-            new DomainException("Exiting Console's Logging Task", ExceptionSrc.Exit, ExceptionType.Notification);
+            new DomainException("Exiting Console Logging Task", ExceptionSrc.Exit, ExceptionType.Notification, LogType.Console);
             //AddExceptionLog(
             //    new ExceptionBody
             //    {
@@ -69,7 +69,7 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         public static void ExitFileLogTask()
         {
-            new DomainException("Exiting File's Logging Task", ExceptionSrc.Exit, ExceptionType.Notification);
+            new DomainException("Exiting File Logging Task", ExceptionSrc.Exit, ExceptionType.Notification, LogType.File);
             //AddExceptionLog(
             //    new ExceptionBody
             //    {

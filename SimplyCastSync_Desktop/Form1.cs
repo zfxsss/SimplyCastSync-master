@@ -8,12 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using SimplyCastSync.CompareEngine;
-using static SimplyCastSync.Config.ConfigRepository;
-using Newtonsoft.Json.Linq;
 using static SimplyCastSync.Runtime.EngineRuntime;
 using SimplyCastSync.SimplyCast_Sunix;
 using SimplyCastSync.Runtime;
+using System.IO;
+using System.Diagnostics;
 
 namespace SimplyCastSync_Desktop
 {
@@ -22,9 +21,16 @@ namespace SimplyCastSync_Desktop
         /// <summary>
         /// 
         /// </summary>
+        private Task background_sync;
+
+        /// <summary>
+        /// 
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
+            syncsimple_btn.Enabled = true;
+            stopsync_btn.Enabled = false;
         }
 
         /// <summary>
@@ -32,41 +38,72 @@ namespace SimplyCastSync_Desktop
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void rdconfig_btn_Click(object sender, EventArgs e)
-        {
-            Runtime.Run(CompareEngine.Sync);
-            Runtime.Exit = true;
-
-            var src = default(JObject);
-            var dest = default(JObject);
-            if (Content != null)
-            {
-                var pairsconfig = Content["pairs"];
-                if ((pairsconfig != null) && pairsconfig.GetType() == typeof(JArray))
-                {
-                    foreach (var pair in pairsconfig)
-                    {
-                        src = pair["source"] as JObject;
-                        dest = pair["destination"] as JObject;
-                    }
-                }
-            }
-
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void sync_btn_Click(object sender, EventArgs e)
-        {
-            CompareEngine.Sync();
-        }
-
         private void syncsimple_btn_Click(object sender, EventArgs e)
         {
-            Runtime.Run(Comparer.Sync);
+            background_sync = Runtime.Run(Comparer.Sync);
+            if (!Runtime.Exit)
+            {
+                syncsimple_btn.Enabled = false;
+                stopsync_btn.Enabled = true;
+            }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void stopsync_btn_Click(object sender, EventArgs e)
+        {
+            Runtime.Exit = true;
+            if (background_sync != null)
+                background_sync.Wait();
+            if (Runtime.Exit)
+            {
+                syncsimple_btn.Enabled = true;
+                stopsync_btn.Enabled = false;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            stopsync_btn_Click(sender, e);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void currentLoggingFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("notepad.exe", @"FileLog\log_" + DateTime.Now.ToString("yyyyMMdd") + ".txt");
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void openLoggingDirectoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"FileLog");
+        }
+
     }
 }

@@ -16,7 +16,7 @@ namespace SimplyCastSync.Runtime
         /// </summary>
         /// <param name="doit"></param>
         /// <returns></returns>
-        TaskStatus Run(Action doit);
+        Task Run(Action doit);
 
         /// <summary>
         /// 

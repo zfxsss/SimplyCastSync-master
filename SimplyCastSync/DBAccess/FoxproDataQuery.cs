@@ -24,6 +24,9 @@ namespace SimplyCastSync.DBAccess
         /// <returns></returns>
         public DataSet GetData(string querystr)
         {
+            //add log
+            new DomainException("GetData in FoxproData", ExceptionSrc.Processing, ExceptionType.Message);
+
             try
             {
                 DataSet ds = new DataSet();
@@ -51,8 +54,7 @@ namespace SimplyCastSync.DBAccess
             catch (Exception ex)
             {
                 // add log
-                throw new DomainException(ex.Message, ExceptionSrc.Processing, ExceptionType.Error);
-
+                throw new DomainException(ex.Message + " in Foxpro GetData", ExceptionSrc.Processing, ExceptionType.Error);
                 //return null;
             }
         }
@@ -83,7 +85,7 @@ namespace SimplyCastSync.DBAccess
             _connstr = connstr;
 
             // add log
-            new DomainException("Foxpro Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Message);
+            new DomainException("Foxpro Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Notification);
         }
 
     }

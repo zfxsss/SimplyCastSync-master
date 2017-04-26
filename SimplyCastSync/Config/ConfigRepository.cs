@@ -37,5 +37,13 @@ namespace SimplyCastSync.Config
             }
 
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static void Clear()
+        {
+            _content = null;
+        }
     }
 }

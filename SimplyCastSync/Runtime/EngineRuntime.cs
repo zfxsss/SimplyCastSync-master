@@ -1,4 +1,5 @@
-﻿using SimplyCastSync.Exceptions;
+﻿using SimplyCastSync.Config;
+using SimplyCastSync.Exceptions;
 using SimplyCastSync.PubLib.Log;
 
 using System;
@@ -80,32 +81,53 @@ namespace SimplyCastSync.Runtime
         /// </summary>
         /// <param name="a"></param>
         /// <returns></returns>
-        public TaskStatus Run(Action doit)
+        public Task Run(Action doit)
         {
-            if (T == null)
+            Exit = false;
+            RTT.Clear();
+            ConfigRepository.Clear();
+
+
+            if ((T == null) || (T.Status == TaskStatus.RanToCompletion))
             {
                 T = Task.Run(() =>
                  {
                      var t_consolelog = LogMgr.ConsoleLogTask;
                      var t_filelog = LogMgr.FileLogTask;
 
-                     new DomainException("Sync Worker Launched", ExceptionSrc.Init, ExceptionType.Notification, LogType.Console);
+                     //might fail
+                     new DomainException("Sync Worker Launched", ExceptionSrc.Init, ExceptionType.Notification);
+
                      while (!Exit)
                      {
-                         //RuntimeTimer
-                         if (RTT.Timeout())
+                         try
                          {
-                             try
+                             //RuntimeTimer
+                             if (RTT.Timeout())
                              {
+                                 //main task
                                  doit();
                              }
-                             catch (Exception ex)
+                             Thread.Sleep(1000);
+                         }
+                         catch (Exception ex)
+                         {
+                             if (ex.GetType() == typeof(DomainException))
                              {
-
+                                 if ((ex as DomainException).EB.et == ExceptionType.System)
+                                 {
+                                     //System Error
+                                     throw ex;
+                                 }
+                             }
+                             else
+                             {
+                                 new DomainException(ex.Message + " Catched in EngineRuntime", ExceptionSrc.Processing, ExceptionType.Error);
                              }
                          }
-                         Thread.Sleep(1000);
                      }
+
+                     new DomainException("Sync Worker Exiting", ExceptionSrc.Cleanup, ExceptionType.Notification, LogType.Console);
 
                      LogMgr.ExitConsoleLogTask();
                      LogMgr.ExitFileLogTask();
@@ -113,13 +135,11 @@ namespace SimplyCastSync.Runtime
                      t_consolelog.Wait();
                      t_filelog.Wait();
 
-                     new DomainException("Sync Worker Exited", ExceptionSrc.Cleanup, ExceptionType.Notification, LogType.Console);
-
                      //Log.AddExceptionLog(new ExceptionBody { }, LogType.Console_File);
                  });
             }
 
-            return T.Status;
+            return T;
         }
 
         /// <summary>

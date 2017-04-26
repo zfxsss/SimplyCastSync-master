@@ -1,0 +1,6 @@
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSyncSvc.exe.config
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSyncSvc.exe
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSyncSvc.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.csprojResolveAssemblyReference.cache
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.exe
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.pdb

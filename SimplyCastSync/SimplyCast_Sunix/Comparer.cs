@@ -24,60 +24,55 @@ namespace SimplyCastSync.SimplyCast_Sunix
         /// </summary>
         public static Action Sync = () =>
         {
-            if (Content != null)
+
+            var pairsconfig = Content["pairs"];
+            if ((pairsconfig != null) && pairsconfig.GetType() == typeof(JArray))
             {
-                var pairsconfig = Content["pairs"];
-                if ((pairsconfig != null) && pairsconfig.GetType() == typeof(JArray))
+                var src = default(JObject);
+                var dest = default(JObject);
+                //string syncstrategy = "";
+                foreach (var pair in pairsconfig)
                 {
-                    var src = default(JObject);
-                    var dest = default(JObject);
-                    //string syncstrategy = "";
-                    foreach (var pair in pairsconfig)
+                    try
                     {
-                        try
+                        src = pair["source"] as JObject;
+                        dest = pair["destination"] as JObject;
+
+                        var src_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["source"]["ds"].ToString()).First();
+                        var dest_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["destination"]["ds"].ToString()).First();
+
+                        // DataSet => JObject
+                        if ((src["dstype"].ToString() == "DataSet") && (dest["dstype"].ToString() == "JObject"))
                         {
-                            src = pair["source"] as JObject;
-                            dest = pair["destination"] as JObject;
+                            IQuery<DataSet> q_src = QueryBuilder.DsBuilder.GetQuery<DataSet>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
+                            IQuery<JObject> q_dest = QueryBuilder.DsBuilder.GetQuery<JObject>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
 
-                            var src_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["source"]["ds"].ToString()).First();
-                            var dest_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["destination"]["ds"].ToString()).First();
-
-                            // DataSet => JObject
-                            if ((src["dstype"].ToString() == "DataSet") && (dest["dstype"].ToString() == "JObject"))
-                            {
-                                IQuery<DataSet> q_src = QueryBuilder.DsBuilder.GetQuery<DataSet>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
-                                IQuery<JObject> q_dest = QueryBuilder.DsBuilder.GetQuery<JObject>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
-
-                                SunixToSimplyCast(q_src, q_dest, (JObject)pair);
-                            }
-                            // JObject => DataSet
-                            else if ((src["dstype"].ToString() == "JObject") && (dest["dstype"].ToString() == "DataSet"))
-                            {
-                                IQuery<JObject> q_src = QueryBuilder.DsBuilder.GetQuery<JObject>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
-                                IQuery<DataSet> q_dest = QueryBuilder.DsBuilder.GetQuery<DataSet>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
-
-                                SimplyCastToSunix(q_src, q_dest, (JObject)pair);
-                            }
-                            // not supported
-                            else
-                                throw new DomainException("Sync Pair Not Supported", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Error);
+                            SunixToSimplyCast(q_src, q_dest, (JObject)pair);
                         }
-                        catch (Exception ex)
+                        // JObject => DataSet
+                        else if ((src["dstype"].ToString() == "JObject") && (dest["dstype"].ToString() == "DataSet"))
                         {
+                            IQuery<JObject> q_src = QueryBuilder.DsBuilder.GetQuery<JObject>(src_ds_config["queryname"].ToString(), src_ds_config["connstr"].ToString());
+                            IQuery<DataSet> q_dest = QueryBuilder.DsBuilder.GetQuery<DataSet>(dest_ds_config["queryname"].ToString(), dest_ds_config["connstr"].ToString());
 
+                            SimplyCastToSunix(q_src, q_dest, (JObject)pair);
                         }
-
+                        // not supported
+                        else
+                            throw new DomainException("Sync Pair Not Supported", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Error);
                     }
-                }
-                else
-                {
-                    throw new DomainException("Synchronization Configuration Not Found", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.System, PubLib.Log.LogType.Console);
+                    catch (Exception)
+                    {
+                        new DomainException("Synchronization might Have Problem", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Warning);
+                    }
+
                 }
             }
             else
             {
-                throw new DomainException("Configuration Not Found", PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.System, PubLib.Log.LogType.Console);
+                throw new DomainException("Synchronization Configuration Not Found", PubLib.Log.ExceptionSrc.Init, PubLib.Log.ExceptionType.System, PubLib.Log.LogType.Console);
             }
+
 
         };
 

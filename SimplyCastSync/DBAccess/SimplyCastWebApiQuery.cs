@@ -56,6 +56,9 @@ namespace SimplyCastSync.DBAccess
         /// <returns></returns>
         public JObject GetData(string querystr)
         {
+            //add log
+            new DomainException("GetData in SimplyCastWebApi", ExceptionSrc.Processing, ExceptionType.Message);
+
             try
             {
                 using (var client = new HttpClient())
@@ -87,8 +90,7 @@ namespace SimplyCastSync.DBAccess
             catch (Exception ex)
             {
                 // add log
-                throw new DomainException(ex.Message, PubLib.Log.ExceptionSrc.Processing, PubLib.Log.ExceptionType.Error);
-
+                throw new DomainException(ex.Message + " in SimplyCastWebAPI GetData", ExceptionSrc.Processing, ExceptionType.Error);
                 //return null;
             }
         }
@@ -114,36 +116,50 @@ namespace SimplyCastSync.DBAccess
                     {
                         foreach (var rd in changeset)
                         {
-                            var querystring = "";
-
-                            if (rd["_rdstatus"].ToString() == "update")
+                            try
                             {
-                                ((JObject)rd).Remove("_rdstatus");
-                                querystring = QueryStringResolver.GetQueryString("CommonRegex", extras[0], new JValue[] { (JValue)rd["_id"] });
-                                ((JObject)rd).Remove("_id");
+                                //add log
+                                new DomainException("UpdateData in SimplyCastWebApi", ExceptionSrc.Processing, ExceptionType.Message);
+
+                                var querystring = "";
+
+                                if (rd["_rdstatus"].ToString() == "update")
+                                {
+                                    ((JObject)rd).Remove("_rdstatus");
+                                    querystring = QueryStringResolver.GetQueryString("CommonRegex", extras[0], new JValue[] { (JValue)rd["_id"] });
+                                    ((JObject)rd).Remove("_id");
+                                }
+                                else if (rd["_rdstatus"].ToString() == "add")
+                                {
+                                    ((JObject)rd).Remove("_rdstatus");
+                                    querystring = extras[1];
+
+                                }
+
+                                AddMetaData(client, "update");
+
+                                using (var updatetask = client.PostAsync(querystring, new StringContent(CreateBodyString((JObject)rd), Encoding.UTF8, "application/json")))
+                                {
+                                    updatetask.Wait();
+                                    if (updatetask.Result.StatusCode != System.Net.HttpStatusCode.OK)
+                                    {
+                                        new DomainException("Update StatusCode Not OK in SimplyCastWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
+                                    }
+                                }
                             }
-                            else if (rd["_rdstatus"].ToString() == "add")
+                            catch (Exception ex)
                             {
-                                ((JObject)rd).Remove("_rdstatus");
-                                querystring = extras[1];
-
+                                new DomainException(ex.Message + " in SimplyCastWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
                             }
 
-                            AddMetaData(client, "update");
-
-                            using (var updatetask = client.PostAsync(querystring, new StringContent(CreateBodyString((JObject)rd), Encoding.UTF8, "application/json")))
-                            {
-                                updatetask.Wait();
-                            }
-
-                        }
+                        } // end of foreach
                     }
                 }
 
-            }//end of using
+            } //end of using
             catch (Exception ex)
             {
-                new DomainException(ex.Message, ExceptionSrc.Processing, ExceptionType.Error);
+                throw new DomainException(ex.Message + " in SimplyCastWebAPI UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
             }
 
         }//end of method
@@ -204,7 +220,7 @@ namespace SimplyCastSync.DBAccess
             key = Convert.ToBase64String(Encoding.ASCII.GetBytes(pubkey + ":" + secretkey));
 
             // add log
-            new DomainException("SimplyCastWebApi Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Message);
+            new DomainException("SimplyCastWebApi Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Notification);
         }
     }
 }

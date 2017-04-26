@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyCastSyncTests", "Simp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyCastSync_Desktop", "SimplyCastSync_Desktop\SimplyCastSync_Desktop.csproj", "{2EA36A19-ACAF-4FA2-9FCB-83D87E411715}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SimplyCastSyncInstaller", "SimplyCastSyncInstaller\SimplyCastSyncInstaller.vdproj", "{780077A2-ADED-4490-8C64-1A7EA9D7DFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyCastSyncSvc", "SimplyCastSyncSvc\SimplyCastSyncSvc.csproj", "{E91A5BF4-C305-47D3-9638-21CC76F49E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,12 @@ Global
 		{2EA36A19-ACAF-4FA2-9FCB-83D87E411715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA36A19-ACAF-4FA2-9FCB-83D87E411715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA36A19-ACAF-4FA2-9FCB-83D87E411715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780077A2-ADED-4490-8C64-1A7EA9D7DFB5}.Debug|Any CPU.ActiveCfg = Debug
+		{780077A2-ADED-4490-8C64-1A7EA9D7DFB5}.Release|Any CPU.ActiveCfg = Release
+		{E91A5BF4-C305-47D3-9638-21CC76F49E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91A5BF4-C305-47D3-9638-21CC76F49E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91A5BF4-C305-47D3-9638-21CC76F49E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91A5BF4-C305-47D3-9638-21CC76F49E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Collections.Concurrent;
 using System.IO;
+using Newtonsoft.Json.Linq;
+using static SimplyCastSync.Config.ConfigRepository;
 
 namespace SimplyCastSync.PubLib.Log
 {
@@ -48,7 +50,12 @@ namespace SimplyCastSync.PubLib.Log
                     {
                         _consolelog.Take();
                     }
-                    _consolelog.Add(eb);
+
+                    if (((JArray)Content["running"]["consolelog"]).Values<string>().ToArray().Contains("ALL") || ((JArray)Content["running"]["consolelog"]).Values<string>().ToArray().Contains(eb.et.ToString()))
+                    {
+                        _consolelog.Add(eb);
+                    }
+
                 }
                 //file
                 if ((lt == LogType.File) || (lt == LogType.Console_File))
@@ -57,10 +64,15 @@ namespace SimplyCastSync.PubLib.Log
                     {
                         _filelog.Take();
                     }
-                    _filelog.Add(eb);
+
+                    if (((JArray)Content["running"]["filelog"]).Values<string>().ToArray().Contains("ALL") || ((JArray)Content["running"]["filelog"]).Values<string>().ToArray().Contains(eb.et.ToString()))
+                    {
+                        _filelog.Add(eb);
+                    }
+
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + System.Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
             }
@@ -90,6 +102,10 @@ namespace SimplyCastSync.PubLib.Log
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
                     }
+                    else if (eb.et == ExceptionType.System)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                    }
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.White;
@@ -102,7 +118,7 @@ namespace SimplyCastSync.PubLib.Log
                         break;
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     //Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + System.Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
                 }
@@ -122,12 +138,21 @@ namespace SimplyCastSync.PubLib.Log
                 {
                     eb = _filelog.Take();
 
+                    string textline = eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info;
+                    using (var streamwr = File.AppendText(@"FileLog\log_" + DateTime.Now.ToString("yyyyMMdd") + ".txt"))
+                    {
+                        streamwr.WriteLine(textline);
+                    }
+
+                    //File.WriteAllLines(@"FileLog\log_" + DateTime.Now.ToString("yyyyMMdd") + ".txt", textline);
+
                     if (eb.es == ExceptionSrc.Exit)
                     {
+                        Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
                         break;
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     //Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + System.Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
                 }

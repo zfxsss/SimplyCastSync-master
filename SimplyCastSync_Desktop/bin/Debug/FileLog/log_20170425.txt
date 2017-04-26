@@ -1,0 +1,300 @@
+2017/04/25 15:24:29.731---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:00.627---Notification: Sync Worker Launched
+2017/04/25 15:30:02.650---Notification: Foxpro Connection String Loaded
+2017/04/25 15:30:02.651---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 15:30:04.726---Message: GetData in FoxproData
+2017/04/25 15:30:08.741---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:09.042---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:09.363---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:09.688---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:09.985---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:10.182---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:10.470---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:10.651---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:10.955---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:11.158---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:11.560---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:11.740---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:12.021---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:12.213---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:12.517---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:12.693---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:13.049---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:13.252---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:13.548---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:13.733---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:14.047---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:14.243---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:14.696---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:15.116---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:15.392---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:15.580---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:15.849---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:16.058---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:16.318---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:16.503---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:16.770---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:16.971---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:17.244---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:17.419---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:17.679---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:17.860---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:18.131---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:18.336---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:18.608---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:18.835---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:19.119---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:19.324---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:19.613---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:19.791---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:20.076---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:20.255---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:20.514---Notification: Foxpro Connection String Loaded
+2017/04/25 15:30:20.514---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 15:30:20.514---Message: GetData in FoxproData
+2017/04/25 15:30:20.534---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:20.756---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:21.062---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:21.262---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:21.601---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:21.771---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:22.124---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:22.324---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:22.658---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:22.859---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:23.150---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:23.443---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:23.802---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:23.970---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:24.306---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:24.494---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:24.780---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:24.969---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:25.335---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:25.503---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:25.841---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:26.005---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:26.402---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:26.577---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:26.937---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:27.132---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:27.463---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:27.652---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:27.942---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:28.141---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:28.465---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:28.626---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:29.013---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:29.212---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:29.535---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:29.750---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:30.039---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:30.216---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:30.555---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:30.744---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:31.193---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:31.368---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:31.678---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:31.862---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:30:32.260---Message: GetData in SimplyCastWebApi
+2017/04/25 15:30:32.455---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:40.804---Notification: Foxpro Connection String Loaded
+2017/04/25 15:31:40.804---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 15:31:40.804---Message: GetData in FoxproData
+2017/04/25 15:31:40.833---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:41.019---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:41.258---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:41.422---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:41.660---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:41.858---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:42.104---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:42.272---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:42.510---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:42.671---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:42.901---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:43.070---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:43.304---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:43.467---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:43.699---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:43.863---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:44.099---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:44.268---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:44.512---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:44.739---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:44.983---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:45.170---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:45.415---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:45.588---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:45.819---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:45.998---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:46.249---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:46.412---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:46.659---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:46.826---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:47.056---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:47.235---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:47.487---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:47.660---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:47.897---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:48.062---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:48.318---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:48.501---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:48.729---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:48.906---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:49.150---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:49.313---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:49.555---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:49.717---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:49.946---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:50.123---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:50.380---Notification: Foxpro Connection String Loaded
+2017/04/25 15:31:50.380---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 15:31:50.380---Message: GetData in FoxproData
+2017/04/25 15:31:50.391---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:50.613---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:50.910---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:51.083---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:51.370---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:51.551---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:51.862---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:52.038---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:52.343---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:52.505---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:52.824---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:52.995---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:53.287---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:53.461---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:53.779---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:53.957---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:54.269---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:54.456---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:54.754---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:54.929---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:55.287---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:55.460---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:55.757---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:55.945---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:56.226---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:56.420---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:56.715---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:56.888---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:57.205---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:57.437---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:57.763---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:57.943---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:58.258---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:58.435---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:58.766---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:58.957---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:31:59.247---Message: GetData in SimplyCastWebApi
+2017/04/25 15:31:59.627---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:32:00.127---Message: GetData in SimplyCastWebApi
+2017/04/25 15:32:00.335---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:32:00.622---Message: GetData in SimplyCastWebApi
+2017/04/25 15:32:00.808---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:32:01.141---Message: GetData in SimplyCastWebApi
+2017/04/25 15:32:01.328---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:32:01.650---Message: GetData in SimplyCastWebApi
+2017/04/25 15:32:01.827---Message: UpdateData in SimplyCastWebApi
+2017/04/25 15:32:40.250---Notification: Exiting File's Logging Task
+2017/04/25 16:05:27.895---Notification: Sync Worker Launched
+2017/04/25 16:05:51.143---Notification: Foxpro Connection String Loaded
+2017/04/25 16:05:58.235---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:06:48.225---Notification: Foxpro Connection String Loaded
+2017/04/25 16:06:48.226---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:07:08.453---Notification: Foxpro Connection String Loaded
+2017/04/25 16:07:08.453---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:07:18.376---Notification: Foxpro Connection String Loaded
+2017/04/25 16:07:18.376---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:07:31.411---Notification: Exiting File Logging Task
+2017/04/25 16:08:00.278---Notification: Sync Worker Launched
+2017/04/25 16:08:00.303---Notification: Foxpro Connection String Loaded
+2017/04/25 16:08:00.303---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:08:10.841---Notification: Foxpro Connection String Loaded
+2017/04/25 16:08:10.841---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:09:01.737---Notification: Exiting File Logging Task
+2017/04/25 16:25:06.252---Notification: Sync Worker Launched
+2017/04/25 16:25:06.264---Notification: Foxpro Connection String Loaded
+2017/04/25 16:25:06.264---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:25:21.787---Notification: Sync Worker Launched
+2017/04/25 16:25:21.795---Notification: Foxpro Connection String Loaded
+2017/04/25 16:25:21.795---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:25:32.310---Notification: Foxpro Connection String Loaded
+2017/04/25 16:25:32.310---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:25:45.251---Notification: Exiting File Logging Task
+2017/04/25 16:34:26.400---Notification: Sync Worker Launched
+2017/04/25 16:34:26.409---Notification: Foxpro Connection String Loaded
+2017/04/25 16:34:26.410---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:34:36.901---Notification: Foxpro Connection String Loaded
+2017/04/25 16:34:36.901---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:34:59.170---Notification: Exiting File Logging Task
+2017/04/25 16:35:00.820---Notification: Sync Worker Launched
+2017/04/25 16:35:00.821---Notification: Foxpro Connection String Loaded
+2017/04/25 16:35:00.821---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:35:11.351---Notification: Foxpro Connection String Loaded
+2017/04/25 16:35:11.351---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:36:41.006---Notification: Foxpro Connection String Loaded
+2017/04/25 16:36:41.006---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:36:51.247---Notification: Foxpro Connection String Loaded
+2017/04/25 16:36:51.247---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:38:20.951---Notification: Foxpro Connection String Loaded
+2017/04/25 16:38:20.951---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:38:30.902---Notification: Foxpro Connection String Loaded
+2017/04/25 16:38:30.902---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:38:43.672---Notification: Exiting File Logging Task
+2017/04/25 16:47:06.391---Notification: Sync Worker Launched
+2017/04/25 16:47:06.420---Notification: Foxpro Connection String Loaded
+2017/04/25 16:47:06.421---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:47:16.799---Notification: Foxpro Connection String Loaded
+2017/04/25 16:47:16.799---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:47:29.395---Notification: Exiting File Logging Task
+2017/04/25 16:56:29.931---Notification: Sync Worker Launched
+2017/04/25 16:56:29.941---Notification: Foxpro Connection String Loaded
+2017/04/25 16:56:29.941---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:56:40.556---Notification: Foxpro Connection String Loaded
+2017/04/25 16:56:40.556---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:57:30.871---Notification: Foxpro Connection String Loaded
+2017/04/25 16:57:30.871---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:57:40.833---Notification: Foxpro Connection String Loaded
+2017/04/25 16:57:40.833---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:58:30.244---Notification: Foxpro Connection String Loaded
+2017/04/25 16:58:30.244---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:58:40.529---Notification: Foxpro Connection String Loaded
+2017/04/25 16:58:40.529---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:59:30.843---Notification: Foxpro Connection String Loaded
+2017/04/25 16:59:30.843---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 16:59:40.842---Notification: Foxpro Connection String Loaded
+2017/04/25 16:59:40.842---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:00:30.214---Notification: Foxpro Connection String Loaded
+2017/04/25 17:00:30.214---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:00:40.584---Notification: Foxpro Connection String Loaded
+2017/04/25 17:00:40.585---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:01:30.047---Notification: Foxpro Connection String Loaded
+2017/04/25 17:01:30.047---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:01:40.033---Notification: Foxpro Connection String Loaded
+2017/04/25 17:01:40.033---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:01:53.716---Notification: Exiting File Logging Task
+2017/04/25 17:19:32.065---Notification: Sync Worker Launched
+2017/04/25 17:19:32.073---Notification: Foxpro Connection String Loaded
+2017/04/25 17:19:32.073---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:19:44.400---Notification: Foxpro Connection String Loaded
+2017/04/25 17:19:44.400---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:19:56.758---Notification: Exiting File Logging Task
+2017/04/25 17:21:40.377---Notification: Sync Worker Launched
+2017/04/25 17:21:40.386---Notification: Foxpro Connection String Loaded
+2017/04/25 17:21:40.386---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:21:50.692---Notification: Foxpro Connection String Loaded
+2017/04/25 17:21:50.692---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 17:22:05.851---Notification: Exiting File Logging Task
+2017/04/25 20:56:16.954---Notification: Sync Worker Launched
+2017/04/25 20:56:17.000---Notification: Foxpro Connection String Loaded
+2017/04/25 20:56:17.001---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 20:56:37.989---Notification: Foxpro Connection String Loaded
+2017/04/25 20:56:37.990---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 20:57:13.453---Notification: Exiting File Logging Task
+2017/04/25 20:57:18.739---Notification: Sync Worker Launched
+2017/04/25 20:57:18.740---Notification: Foxpro Connection String Loaded
+2017/04/25 20:57:18.740---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 20:57:36.619---Notification: Foxpro Connection String Loaded
+2017/04/25 20:57:36.619---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/25 20:57:55.974---Notification: Exiting File Logging Task

@@ -68,6 +68,15 @@ namespace SimplyCastSync.Runtime
         /// <summary>
         /// 
         /// </summary>
+        public void Clear()
+        {
+            lastexecution = DateTime.Now;
+            nextexecution = DateTime.Now;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
         /// <returns></returns>
         public bool Timeout()
         {

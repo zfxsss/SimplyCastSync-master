@@ -3,7 +3,41 @@
   "pairs": [
     {
       "source": {
-        "ds": "firstsrcds",
+        "ds": "localfoxpro",
+        "dstype": "DataSet",
+        "fields": {
+          "uniquefield": "id",
+          "keyfields": [ "REFNUM" ],
+          "valuefields": [ "BIRTHDAY", "BOOKDATE", "NEXTRECALL", "NEXTRCLET", "LASTVISIT", "RECALL", "PAMOUNT", "OCCUPT", "SEX", "STARTTIME", "SURNAME", "GIVEN_NAME" ]
+        },
+        "querystring": "select  a.ADDR1, a.ADDR2, a.ADDR3, a.EMAIL, a.HPHONE, a.MOBILE, a.POSTCODE, a.STATE, a.TITLE, a.OCCUPT, a.SURNAME, a.GIVEN_NAME, a.POSTADDR1, a.POSTADDR2, a.POSTADDR3, a.POSTSTATE, a.POSTPCODE, a.SEX, a.WPHONE, a.PHONE3, a.POSTNAME, a.BIRTHDAY, a.FIRSTVISIT, a.LASTRCLET, a.LASTRECALL, a.LASTVISIT, a.NEXTRCLET, a.NEXTRECALL, a.RECALL, a.RECALLSENT, a.FPOSTADDR, a.RCPERIOD, a.REFNUM, b.BOOKDATE, b.STARTTIME, b.STATUS, c.PAMOUNT from VPATIENT a left join (select k.BOOKDATE, k.STARTTIME, k.REFNUM, k.STATUS from (select max(BOOKDATE) as BOOKDATE, REFNUM from VAPPOINT group by REFNUM) h inner join VAPPOINT k on h.BOOKDATE = k.BOOKDATE and h.REFNUM = k.REFNUM) b on a.REFNUM = b.REFNUM left join (SELECT n.REFNUM, SUM(n.PAMOUNT) as PAMOUNT FROM (SELECT MAX(ACCDATE) as ACCDATE,REFNUM from VACCOUNT GROUP BY REFNUM) m inner join VACCOUNT n on m.ACCDATE = n.ACCDATE and m.REFNUM = n.REFNUM GROUP BY n.REFNUM) c on a.REFNUM = c.REFNUM where (!EMPTY(TRIM(a.SURNAME)) OR !EMPTY(TRIM(a.GIVEN_NAME))) order by a.REFNUM"
+      },
+      "destination": {
+        "ds": "simplycastwebapi",
+        "dstype": "JObject",
+        "fields": {
+          "uniquefieldname": "id",
+          "uniquefieldpath": "$.contacts[{i}].id",
+          "keyfieldsname": [ "PXID" ],
+          "keyfieldsindex": [ "108" ],
+          "keynametag": "name",
+          "keyvaluetag": "value",
+          "otherfieldsname": [ "BIRTHDAY", "NEXTAPPTDATE", "DUEDATE", "LETTER", "LASTVISIT", "RECALL", "LASTPURCHASEAMT", "OCCUPATION", "GENDER", "APPTIME", "LAST_NAME", "FIRST_NAME" ],
+          "otherfieldsindex": [ "106", "85", "99", "107", "86", "109", "111", "105", "82", "112", "84", "83" ],
+          "othernametag": "name",
+          "othervaluetag": "value",
+          "existingjsonpath": "$.contacts[0].id"
+        },
+        "querystring": "contactmanager/contacts?query=`108` = \"{1}\"",
+        "updatestring": "?q=api/call&request=contactmanager/contacts/{1}",
+        "addstring": "?q=api/call&request=contactmanager/contacts"
+      },
+      "syncstrategy": "DataSetToSimplyCastAPI"
+    },
+
+    {
+      "source": {
+        "ds": "localfoxpro",
         "dstype": "DataSet",
         "fields": {
           "uniquefield": "id",
@@ -13,7 +47,7 @@
         "querystring": "select  a.ADDR1, a.ADDR2, a.ADDR3, a.EMAIL, a.HPHONE, a.MOBILE, a.POSTCODE, a.STATE, a.TITLE, a.OCCUPT, a.SURNAME, a.GIVEN_NAME, a.POSTADDR1, a.POSTADDR2, a.POSTADDR3, a.POSTSTATE, a.POSTPCODE, a.SEX, a.WPHONE, a.PHONE3, a.POSTNAME, a.BIRTHDAY, a.FIRSTVISIT, a.LASTRCLET, a.LASTRECALL, a.LASTVISIT, a.NEXTRCLET, a.NEXTRECALL, a.RECALL, a.RECALLSENT, a.FPOSTADDR, a.RCPERIOD, a.REFNUM, b.BOOKDATE, b.STARTTIME, b.STATUS, c.PAMOUNT from VPATIENT a left join (select k.BOOKDATE, k.STARTTIME, k.REFNUM, k.STATUS from (select max(BOOKDATE) as BOOKDATE, REFNUM from VAPPOINT group by REFNUM) h inner join VAPPOINT k on h.BOOKDATE = k.BOOKDATE and h.REFNUM = k.REFNUM) b on a.REFNUM = b.REFNUM left join (SELECT n.REFNUM, SUM(n.PAMOUNT) as PAMOUNT FROM (SELECT MAX(ACCDATE) as ACCDATE,REFNUM from VACCOUNT GROUP BY REFNUM) m inner join VACCOUNT n on m.ACCDATE = n.ACCDATE and m.REFNUM = n.REFNUM GROUP BY n.REFNUM) c on a.REFNUM = c.REFNUM where (!EMPTY(TRIM(a.SURNAME)) OR !EMPTY(TRIM(a.GIVEN_NAME))) order by a.REFNUM"
       },
       "destination": {
-        "ds": "firstdstds",
+        "ds": "simplycastwebapi_jeff",
         "dstype": "JObject",
         "fields": {
           "uniquefieldname": "id",
@@ -34,32 +68,30 @@
       },
       "syncstrategy": "DataSetToSimplyCastAPI"
     }
+
   ],
   "running": {
-    "interval": 100,
+    "interval": 60,
     "logdir": "logs",
     "loginput": "Console_File",
-    "consolelog": {
-      "message": [ ],
-      "warning": [ ],
-      "error": [ ]
-    },
-    "servicelog": {
-      "message": [ ],
-      "warning": [ ],
-      "error": [ ]
-    }
+    "consolelog": [ "ALL" ],
+    "filelog": [ "Warning", "Error", "System", "Notification" ]
   },
   "datasource": [
     {
-      "name": "firstsrcds",
+      "name": "localfoxpro",
       "queryname": "FoxproData",
-      "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data;"
+      "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data;Mode=Read;"
     },
     {
-      "name": "firstdstds",
+      "name": "simplycastwebapi_jeff",
       "queryname": "SimplyCastWebApi",
       "connstr": "UpdateAddress=https://app.simplycast.com;QueryAddress=https://api.simplycast.com;PublicKey=a8fe3712113090e5666a6b374452dc930d710553;SecretKey=7dc2feccd12ec26534a405c611f0134481c3394e;"
+    },
+    {
+      "name": "simplycastwebapi",
+      "queryname": "SimplyCastWebApi",
+      "connstr": "UpdateAddress=https://app.valuedpatient.com;QueryAddress=https://api.valuedpatient.com;PublicKey=fdccc4c597be450ed04e5fc498190d5b087bbd63;SecretKey=66be6054f165116840816d1747f6f9e7f7faff31;"
     }
   ]
 }

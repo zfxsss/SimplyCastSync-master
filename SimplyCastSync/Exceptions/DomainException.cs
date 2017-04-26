@@ -17,18 +17,23 @@ namespace SimplyCastSync.Exceptions
         /// <summary>
         /// 
         /// </summary>
+        public ExceptionBody EB { get; private set; }
+        /// <summary>
+        /// 
+        /// </summary>
         /// <param name="ex"></param>
         /// <param name="domain"></param>
         public DomainException(string msg, ExceptionSrc excepsrc, ExceptionType exceptype) : base(msg)
         {
-            AddExceptionLog(new ExceptionBody
+            EB = new ExceptionBody
             {
                 es = excepsrc,
                 et = exceptype,
                 info = msg,
                 ts = DateTime.Now
-            },
-            GetLogInputEnum(ConfigRepository.Content["running"]["loginput"].ToString()));
+            };
+
+            AddExceptionLog(EB, GetLogInputEnum(ConfigRepository.Content["running"]["loginput"].ToString()));
         }
 
         /// <summary>
@@ -40,13 +45,14 @@ namespace SimplyCastSync.Exceptions
         /// <param name="lt"></param>
         public DomainException(string msg, ExceptionSrc excepsrc, ExceptionType exceptype, LogType lt) : base(msg)
         {
-            AddExceptionLog(new ExceptionBody
+            EB = new ExceptionBody
             {
                 es = excepsrc,
                 et = exceptype,
                 info = msg,
                 ts = DateTime.Now
-            }, lt);
+            };
+            AddExceptionLog(EB, lt);
         }
 
         /// <summary>

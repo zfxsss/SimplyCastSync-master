@@ -14,7 +14,10 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         internal static Task ExportConsoleLogAsync()
         {
-            return Task.Run(() => ExportConsoleLog());
+            return Task.Run(() =>
+            {
+                ExportConsoleLog();
+            });
         }
 
         /// <summary>
@@ -22,7 +25,10 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         internal static Task ExportFileLogAsync()
         {
-            return Task.Run(() => ExportFileLog());
+            return Task.Run(() =>
+            {
+                ExportFileLog();
+            });
         }
     }
 }
