@@ -55,16 +55,15 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.Form1.resources
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.Properties.Resources.resources
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.csproj.GenerateResource.Cache
-C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.exe.config
-C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.exe
-C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.pdb
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\simplycast_updatecontact.json
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\FileLog\log_20170425.txt
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup.json
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple.json
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_backup5.json
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_backup4.json
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config.json
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.exe.config
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.exe
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.pdb
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\Newtonsoft.Json.dll
@@ -75,3 +74,8 @@ C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.Form1.resources
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.Properties.Resources.resources
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.csproj.GenerateResource.Cache
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.exe
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.pdb
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup2.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\FileLog\log_20170425.txt
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup2.json

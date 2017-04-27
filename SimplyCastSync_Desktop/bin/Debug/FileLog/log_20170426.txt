@@ -1,0 +1,838 @@
+2017/04/26 13:51:29.694---Notification: Sync Worker Launched
+2017/04/26 13:51:29.705---Notification: Foxpro Connection String Loaded
+2017/04/26 13:51:29.705---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 13:51:40.395---Notification: Foxpro Connection String Loaded
+2017/04/26 13:51:40.395---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 13:52:26.191---Notification: Exiting File Logging Task
+2017/04/26 14:01:43.874---Notification: Sync Worker Launched
+2017/04/26 14:01:43.882---Notification: Foxpro Connection String Loaded
+2017/04/26 14:01:43.882---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:01:43.983---Error: Memo file c:\users\jeff xu\downloads\newdata\vpatient.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:01:44.009---Warning: Synchronization might Have Problem
+2017/04/26 14:01:44.009---Notification: Foxpro Connection String Loaded
+2017/04/26 14:01:44.009---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:01:44.019---Error: Memo file c:\users\jeff xu\downloads\newdata\vpatient.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:01:44.064---Warning: Synchronization might Have Problem
+2017/04/26 14:02:15.075---Notification: Exiting File Logging Task
+2017/04/26 14:04:32.639---Notification: Sync Worker Launched
+2017/04/26 14:04:32.649---Notification: Foxpro Connection String Loaded
+2017/04/26 14:04:32.649---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:04:32.709---Error: Memo file c:\users\jeff xu\downloads\newdata\vpatient.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:04:32.775---Warning: Synchronization might Have Problem
+2017/04/26 14:04:32.775---Notification: Foxpro Connection String Loaded
+2017/04/26 14:04:32.775---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:04:32.784---Error: Memo file c:\users\jeff xu\downloads\newdata\vpatient.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:04:32.809---Warning: Synchronization might Have Problem
+2017/04/26 14:04:37.832---Notification: Exiting File Logging Task
+2017/04/26 14:05:22.020---Notification: Sync Worker Launched
+2017/04/26 14:05:22.030---Notification: Foxpro Connection String Loaded
+2017/04/26 14:05:22.031---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:05:22.084---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:05:22.121---Warning: Synchronization might Have Problem
+2017/04/26 14:05:22.121---Notification: Foxpro Connection String Loaded
+2017/04/26 14:05:22.121---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:05:22.131---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:05:22.187---Warning: Synchronization might Have Problem
+2017/04/26 14:05:46.353---Notification: Exiting File Logging Task
+2017/04/26 14:09:40.790---Notification: Sync Worker Launched
+2017/04/26 14:09:40.797---Notification: Foxpro Connection String Loaded
+2017/04/26 14:09:40.798---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:09:40.851---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:09:40.910---Warning: Synchronization might Have Problem
+2017/04/26 14:09:40.910---Notification: Foxpro Connection String Loaded
+2017/04/26 14:09:40.910---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:09:40.921---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:09:40.982---Warning: Synchronization might Have Problem
+2017/04/26 14:10:41.323---Notification: Foxpro Connection String Loaded
+2017/04/26 14:10:41.323---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:10:41.335---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:10:41.362---Warning: Synchronization might Have Problem
+2017/04/26 14:10:41.362---Notification: Foxpro Connection String Loaded
+2017/04/26 14:10:41.362---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:10:41.373---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:10:41.399---Warning: Synchronization might Have Problem
+2017/04/26 14:10:45.427---Notification: Exiting File Logging Task
+2017/04/26 14:22:31.097---Notification: Sync Worker Launched
+2017/04/26 14:22:31.107---Notification: Foxpro Connection String Loaded
+2017/04/26 14:22:31.108---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:23:57.729---Notification: Sync Worker Launched
+2017/04/26 14:23:57.737---Notification: Foxpro Connection String Loaded
+2017/04/26 14:23:57.738---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:23:57.802---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:23:57.843---Warning: Synchronization might Have Problem
+2017/04/26 14:23:57.843---Notification: Foxpro Connection String Loaded
+2017/04/26 14:23:57.843---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:23:57.853---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:23:57.912---Warning: Synchronization might Have Problem
+2017/04/26 14:24:30.282---Notification: Sync Worker Launched
+2017/04/26 14:24:30.320---Notification: Foxpro Connection String Loaded
+2017/04/26 14:24:30.320---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:24:30.369---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:24:30.403---Warning: Synchronization might Have Problem
+2017/04/26 14:24:30.403---Notification: Foxpro Connection String Loaded
+2017/04/26 14:24:30.403---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:24:30.413---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:24:30.485---Warning: Synchronization might Have Problem
+2017/04/26 14:24:32.489---Notification: Exiting File Logging Task
+2017/04/26 14:26:10.354---Notification: Sync Worker Launched
+2017/04/26 14:26:10.363---Notification: Foxpro Connection String Loaded
+2017/04/26 14:26:10.363---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:26:10.420---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:26:10.447---Warning: Synchronization might Have Problem
+2017/04/26 14:26:10.447---Notification: Foxpro Connection String Loaded
+2017/04/26 14:26:10.447---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:26:10.458---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:26:10.519---Warning: Synchronization might Have Problem
+2017/04/26 14:26:17.574---Notification: Exiting File Logging Task
+2017/04/26 14:39:38.565---Notification: Sync Worker Launched
+2017/04/26 14:39:38.566---Notification: Foxpro Connection String Loaded
+2017/04/26 14:39:38.566---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:39:38.581---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:39:38.614---Warning: Synchronization might Have Problem
+2017/04/26 14:39:38.614---Notification: Foxpro Connection String Loaded
+2017/04/26 14:39:38.614---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:39:38.625---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:39:38.684---Warning: Synchronization might Have Problem
+2017/04/26 14:39:40.697---Notification: Exiting File Logging Task
+2017/04/26 14:45:55.908---Notification: Sync Worker Launched
+2017/04/26 14:45:55.910---Notification: Foxpro Connection String Loaded
+2017/04/26 14:45:55.910---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:45:55.963---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:45:55.992---Warning: Synchronization might Have Problem
+2017/04/26 14:45:55.993---Notification: Foxpro Connection String Loaded
+2017/04/26 14:45:55.993---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:45:56.005---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:45:56.049---Warning: Synchronization might Have Problem
+2017/04/26 14:45:58.050---Notification: Exiting File Logging Task
+2017/04/26 14:53:56.570---Notification: Sync Worker Launched
+2017/04/26 14:53:56.595---Notification: Foxpro Connection String Loaded
+2017/04/26 14:53:56.595---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:53:56.628---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:53:56.653---Warning: Synchronization might Have Problem
+2017/04/26 14:53:56.654---Notification: Foxpro Connection String Loaded
+2017/04/26 14:53:56.654---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:53:56.666---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:53:56.712---Warning: Synchronization might Have Problem
+2017/04/26 14:54:56.737---Notification: Foxpro Connection String Loaded
+2017/04/26 14:54:56.737---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:54:56.761---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:54:56.807---Warning: Synchronization might Have Problem
+2017/04/26 14:54:56.807---Notification: Foxpro Connection String Loaded
+2017/04/26 14:54:56.808---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:54:56.822---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:54:56.867---Warning: Synchronization might Have Problem
+2017/04/26 14:55:56.889---Notification: Foxpro Connection String Loaded
+2017/04/26 14:55:56.889---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:55:56.904---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:55:56.912---Warning: Synchronization might Have Problem
+2017/04/26 14:55:56.912---Notification: Foxpro Connection String Loaded
+2017/04/26 14:55:56.912---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:55:56.931---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:55:56.945---Warning: Synchronization might Have Problem
+2017/04/26 14:56:56.968---Notification: Foxpro Connection String Loaded
+2017/04/26 14:56:56.968---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:56:56.991---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:56:56.999---Warning: Synchronization might Have Problem
+2017/04/26 14:56:56.999---Notification: Foxpro Connection String Loaded
+2017/04/26 14:56:56.999---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:56:57.012---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:56:57.038---Warning: Synchronization might Have Problem
+2017/04/26 14:57:57.067---Notification: Foxpro Connection String Loaded
+2017/04/26 14:57:57.067---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:57:57.078---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:57:57.123---Warning: Synchronization might Have Problem
+2017/04/26 14:57:57.123---Notification: Foxpro Connection String Loaded
+2017/04/26 14:57:57.123---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:57:57.135---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:57:57.180---Warning: Synchronization might Have Problem
+2017/04/26 14:58:57.202---Notification: Foxpro Connection String Loaded
+2017/04/26 14:58:57.202---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:58:57.216---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:58:57.261---Warning: Synchronization might Have Problem
+2017/04/26 14:58:57.262---Notification: Foxpro Connection String Loaded
+2017/04/26 14:58:57.262---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 14:58:57.273---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 14:58:57.300---Warning: Synchronization might Have Problem
+2017/04/26 14:59:02.302---Notification: Exiting File Logging Task
+2017/04/26 15:00:00.801---Notification: Sync Worker Launched
+2017/04/26 15:00:00.809---Notification: Foxpro Connection String Loaded
+2017/04/26 15:00:00.809---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:00:00.946---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:00:00.971---Warning: Synchronization might Have Problem
+2017/04/26 15:00:00.971---Notification: Foxpro Connection String Loaded
+2017/04/26 15:00:00.971---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:00:00.982---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:00:01.007---Warning: Synchronization might Have Problem
+2017/04/26 15:01:01.030---Notification: Foxpro Connection String Loaded
+2017/04/26 15:01:01.030---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:01:01.045---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:01:01.091---Warning: Synchronization might Have Problem
+2017/04/26 15:01:01.092---Notification: Foxpro Connection String Loaded
+2017/04/26 15:01:01.092---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:01:01.103---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:01:01.110---Warning: Synchronization might Have Problem
+2017/04/26 15:02:01.132---Notification: Foxpro Connection String Loaded
+2017/04/26 15:02:01.132---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:02:01.152---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:02:01.181---Warning: Synchronization might Have Problem
+2017/04/26 15:02:01.182---Notification: Foxpro Connection String Loaded
+2017/04/26 15:02:01.182---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:02:01.192---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:02:01.218---Warning: Synchronization might Have Problem
+2017/04/26 15:03:01.246---Notification: Foxpro Connection String Loaded
+2017/04/26 15:03:01.246---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:03:01.300---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:03:01.331---Warning: Synchronization might Have Problem
+2017/04/26 15:03:01.331---Notification: Foxpro Connection String Loaded
+2017/04/26 15:03:01.331---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:03:01.359---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:03:01.386---Warning: Synchronization might Have Problem
+2017/04/26 15:04:01.415---Notification: Foxpro Connection String Loaded
+2017/04/26 15:04:01.415---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:04:01.428---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:04:01.435---Warning: Synchronization might Have Problem
+2017/04/26 15:04:01.435---Notification: Foxpro Connection String Loaded
+2017/04/26 15:04:01.435---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:04:01.447---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:04:01.455---Warning: Synchronization might Have Problem
+2017/04/26 15:05:01.474---Notification: Foxpro Connection String Loaded
+2017/04/26 15:05:01.474---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:05:01.489---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:05:01.516---Warning: Synchronization might Have Problem
+2017/04/26 15:05:01.516---Notification: Foxpro Connection String Loaded
+2017/04/26 15:05:01.516---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:05:01.528---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:05:01.535---Warning: Synchronization might Have Problem
+2017/04/26 15:06:01.558---Notification: Foxpro Connection String Loaded
+2017/04/26 15:06:01.558---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:06:01.582---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:06:01.630---Warning: Synchronization might Have Problem
+2017/04/26 15:06:01.630---Notification: Foxpro Connection String Loaded
+2017/04/26 15:06:01.630---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:06:01.642---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:06:01.686---Warning: Synchronization might Have Problem
+2017/04/26 15:07:01.709---Notification: Foxpro Connection String Loaded
+2017/04/26 15:07:01.709---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:07:01.722---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:07:01.767---Warning: Synchronization might Have Problem
+2017/04/26 15:07:01.768---Notification: Foxpro Connection String Loaded
+2017/04/26 15:07:01.768---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:07:01.779---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:07:01.805---Warning: Synchronization might Have Problem
+2017/04/26 15:08:00.828---Notification: Foxpro Connection String Loaded
+2017/04/26 15:08:00.828---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:08:00.844---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:08:00.891---Warning: Synchronization might Have Problem
+2017/04/26 15:08:00.891---Notification: Foxpro Connection String Loaded
+2017/04/26 15:08:00.891---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:08:00.903---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:08:00.914---Warning: Synchronization might Have Problem
+2017/04/26 15:09:00.940---Notification: Foxpro Connection String Loaded
+2017/04/26 15:09:00.940---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:09:00.953---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:09:00.958---Warning: Synchronization might Have Problem
+2017/04/26 15:09:00.958---Notification: Foxpro Connection String Loaded
+2017/04/26 15:09:00.958---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:09:00.970---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:09:00.978---Warning: Synchronization might Have Problem
+2017/04/26 15:10:01.001---Notification: Foxpro Connection String Loaded
+2017/04/26 15:10:01.001---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:10:01.043---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:10:01.069---Warning: Synchronization might Have Problem
+2017/04/26 15:10:01.069---Notification: Foxpro Connection String Loaded
+2017/04/26 15:10:01.069---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:10:01.084---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:10:01.110---Warning: Synchronization might Have Problem
+2017/04/26 15:11:01.132---Notification: Foxpro Connection String Loaded
+2017/04/26 15:11:01.132---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:11:01.159---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:11:01.206---Warning: Synchronization might Have Problem
+2017/04/26 15:11:01.206---Notification: Foxpro Connection String Loaded
+2017/04/26 15:11:01.206---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:11:01.217---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:11:01.243---Warning: Synchronization might Have Problem
+2017/04/26 15:12:01.390---Notification: Foxpro Connection String Loaded
+2017/04/26 15:12:01.390---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:12:01.408---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:12:01.476---Warning: Synchronization might Have Problem
+2017/04/26 15:12:01.476---Notification: Foxpro Connection String Loaded
+2017/04/26 15:12:01.476---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:12:01.488---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:12:01.546---Warning: Synchronization might Have Problem
+2017/04/26 15:13:01.743---Notification: Foxpro Connection String Loaded
+2017/04/26 15:13:01.743---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:13:01.759---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:13:01.773---Warning: Synchronization might Have Problem
+2017/04/26 15:13:01.773---Notification: Foxpro Connection String Loaded
+2017/04/26 15:13:01.773---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:13:01.817---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:13:01.847---Warning: Synchronization might Have Problem
+2017/04/26 15:14:00.932---Notification: Foxpro Connection String Loaded
+2017/04/26 15:14:00.932---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:14:00.948---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:14:00.994---Warning: Synchronization might Have Problem
+2017/04/26 15:14:00.994---Notification: Foxpro Connection String Loaded
+2017/04/26 15:14:00.994---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:14:01.007---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:14:01.058---Warning: Synchronization might Have Problem
+2017/04/26 15:15:01.115---Notification: Foxpro Connection String Loaded
+2017/04/26 15:15:01.115---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:15:01.132---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:15:01.179---Warning: Synchronization might Have Problem
+2017/04/26 15:15:01.179---Notification: Foxpro Connection String Loaded
+2017/04/26 15:15:01.179---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:15:01.190---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:15:01.249---Warning: Synchronization might Have Problem
+2017/04/26 15:16:01.361---Notification: Foxpro Connection String Loaded
+2017/04/26 15:16:01.361---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:16:01.375---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:16:01.380---Warning: Synchronization might Have Problem
+2017/04/26 15:16:01.380---Notification: Foxpro Connection String Loaded
+2017/04/26 15:16:01.380---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:16:01.393---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:16:01.418---Warning: Synchronization might Have Problem
+2017/04/26 15:17:01.456---Notification: Foxpro Connection String Loaded
+2017/04/26 15:17:01.456---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:17:01.470---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:17:01.500---Warning: Synchronization might Have Problem
+2017/04/26 15:17:01.501---Notification: Foxpro Connection String Loaded
+2017/04/26 15:17:01.501---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:17:01.517---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:17:01.543---Warning: Synchronization might Have Problem
+2017/04/26 15:18:01.790---Notification: Foxpro Connection String Loaded
+2017/04/26 15:18:01.790---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:18:01.803---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:18:01.830---Warning: Synchronization might Have Problem
+2017/04/26 15:18:01.830---Notification: Foxpro Connection String Loaded
+2017/04/26 15:18:01.830---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:18:01.844---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:18:01.850---Warning: Synchronization might Have Problem
+2017/04/26 15:19:01.156---Notification: Foxpro Connection String Loaded
+2017/04/26 15:19:01.156---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:19:01.172---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:19:01.210---Warning: Synchronization might Have Problem
+2017/04/26 15:19:01.210---Notification: Foxpro Connection String Loaded
+2017/04/26 15:19:01.210---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:19:01.225---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:19:01.253---Warning: Synchronization might Have Problem
+2017/04/26 15:20:01.418---Notification: Foxpro Connection String Loaded
+2017/04/26 15:20:01.418---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:20:01.437---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:20:01.467---Warning: Synchronization might Have Problem
+2017/04/26 15:20:01.467---Notification: Foxpro Connection String Loaded
+2017/04/26 15:20:01.467---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:20:01.489---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:20:01.516---Warning: Synchronization might Have Problem
+2017/04/26 15:21:01.609---Notification: Foxpro Connection String Loaded
+2017/04/26 15:21:01.609---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:21:01.630---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:21:01.673---Warning: Synchronization might Have Problem
+2017/04/26 15:21:01.673---Notification: Foxpro Connection String Loaded
+2017/04/26 15:21:01.673---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:21:01.714---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:21:01.735---Warning: Synchronization might Have Problem
+2017/04/26 15:22:00.824---Notification: Foxpro Connection String Loaded
+2017/04/26 15:22:00.824---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:22:00.837---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:22:00.844---Warning: Synchronization might Have Problem
+2017/04/26 15:22:00.844---Notification: Foxpro Connection String Loaded
+2017/04/26 15:22:00.844---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:22:00.855---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:22:00.860---Warning: Synchronization might Have Problem
+2017/04/26 15:23:00.882---Notification: Foxpro Connection String Loaded
+2017/04/26 15:23:00.882---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:23:00.899---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:23:00.945---Warning: Synchronization might Have Problem
+2017/04/26 15:23:00.945---Notification: Foxpro Connection String Loaded
+2017/04/26 15:23:00.945---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:23:00.962---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:23:00.968---Warning: Synchronization might Have Problem
+2017/04/26 15:24:00.993---Notification: Foxpro Connection String Loaded
+2017/04/26 15:24:00.993---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:24:01.023---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:24:01.051---Warning: Synchronization might Have Problem
+2017/04/26 15:24:01.051---Notification: Foxpro Connection String Loaded
+2017/04/26 15:24:01.051---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:24:01.063---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:24:01.088---Warning: Synchronization might Have Problem
+2017/04/26 15:25:01.457---Notification: Foxpro Connection String Loaded
+2017/04/26 15:25:01.457---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:25:01.471---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:25:01.512---Warning: Synchronization might Have Problem
+2017/04/26 15:25:01.512---Notification: Foxpro Connection String Loaded
+2017/04/26 15:25:01.512---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:25:01.579---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:25:01.585---Warning: Synchronization might Have Problem
+2017/04/26 15:26:01.746---Notification: Foxpro Connection String Loaded
+2017/04/26 15:26:01.746---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:26:01.758---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:26:01.763---Warning: Synchronization might Have Problem
+2017/04/26 15:26:01.763---Notification: Foxpro Connection String Loaded
+2017/04/26 15:26:01.763---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:26:01.776---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:26:01.822---Warning: Synchronization might Have Problem
+2017/04/26 15:27:00.978---Notification: Foxpro Connection String Loaded
+2017/04/26 15:27:00.978---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:27:01.013---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:27:01.019---Warning: Synchronization might Have Problem
+2017/04/26 15:27:01.019---Notification: Foxpro Connection String Loaded
+2017/04/26 15:27:01.019---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:27:01.037---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:27:01.047---Warning: Synchronization might Have Problem
+2017/04/26 15:28:01.191---Notification: Foxpro Connection String Loaded
+2017/04/26 15:28:01.191---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:28:01.206---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:28:01.256---Warning: Synchronization might Have Problem
+2017/04/26 15:28:01.256---Notification: Foxpro Connection String Loaded
+2017/04/26 15:28:01.256---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:28:01.267---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:28:01.305---Warning: Synchronization might Have Problem
+2017/04/26 15:29:01.368---Notification: Foxpro Connection String Loaded
+2017/04/26 15:29:01.368---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:29:01.383---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:29:01.429---Warning: Synchronization might Have Problem
+2017/04/26 15:29:01.429---Notification: Foxpro Connection String Loaded
+2017/04/26 15:29:01.429---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:29:01.441---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:29:01.469---Warning: Synchronization might Have Problem
+2017/04/26 15:30:01.489---Notification: Foxpro Connection String Loaded
+2017/04/26 15:30:01.489---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:30:01.533---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:30:01.547---Warning: Synchronization might Have Problem
+2017/04/26 15:30:01.547---Notification: Foxpro Connection String Loaded
+2017/04/26 15:30:01.547---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:30:01.566---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:30:01.574---Warning: Synchronization might Have Problem
+2017/04/26 15:31:01.649---Notification: Foxpro Connection String Loaded
+2017/04/26 15:31:01.649---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:31:01.665---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:31:01.719---Warning: Synchronization might Have Problem
+2017/04/26 15:31:01.719---Notification: Foxpro Connection String Loaded
+2017/04/26 15:31:01.719---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:31:01.740---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:31:01.786---Warning: Synchronization might Have Problem
+2017/04/26 15:32:00.807---Notification: Foxpro Connection String Loaded
+2017/04/26 15:32:00.807---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:32:00.820---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:32:00.846---Warning: Synchronization might Have Problem
+2017/04/26 15:32:00.846---Notification: Foxpro Connection String Loaded
+2017/04/26 15:32:00.846---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:32:00.859---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:32:00.885---Warning: Synchronization might Have Problem
+2017/04/26 15:33:00.913---Notification: Foxpro Connection String Loaded
+2017/04/26 15:33:00.913---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:33:00.929---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:33:00.935---Warning: Synchronization might Have Problem
+2017/04/26 15:33:00.935---Notification: Foxpro Connection String Loaded
+2017/04/26 15:33:00.935---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:33:00.953---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:33:00.964---Warning: Synchronization might Have Problem
+2017/04/26 15:34:01.050---Notification: Foxpro Connection String Loaded
+2017/04/26 15:34:01.050---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:34:01.063---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:34:01.090---Warning: Synchronization might Have Problem
+2017/04/26 15:34:01.091---Notification: Foxpro Connection String Loaded
+2017/04/26 15:34:01.091---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:34:01.106---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:34:01.133---Warning: Synchronization might Have Problem
+2017/04/26 15:35:01.376---Notification: Foxpro Connection String Loaded
+2017/04/26 15:35:01.376---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:35:01.391---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:35:01.400---Warning: Synchronization might Have Problem
+2017/04/26 15:35:01.400---Notification: Foxpro Connection String Loaded
+2017/04/26 15:35:01.400---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:35:01.411---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:35:01.467---Warning: Synchronization might Have Problem
+2017/04/26 15:36:01.738---Notification: Foxpro Connection String Loaded
+2017/04/26 15:36:01.738---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:36:01.752---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:36:01.757---Warning: Synchronization might Have Problem
+2017/04/26 15:36:01.757---Notification: Foxpro Connection String Loaded
+2017/04/26 15:36:01.757---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:36:01.768---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:36:01.774---Warning: Synchronization might Have Problem
+2017/04/26 15:37:00.978---Notification: Foxpro Connection String Loaded
+2017/04/26 15:37:00.978---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:37:00.989---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:37:00.996---Warning: Synchronization might Have Problem
+2017/04/26 15:37:00.996---Notification: Foxpro Connection String Loaded
+2017/04/26 15:37:00.996---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:37:01.007---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:37:01.013---Warning: Synchronization might Have Problem
+2017/04/26 15:38:01.195---Notification: Foxpro Connection String Loaded
+2017/04/26 15:38:01.195---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:38:01.207---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:38:01.236---Warning: Synchronization might Have Problem
+2017/04/26 15:38:01.236---Notification: Foxpro Connection String Loaded
+2017/04/26 15:38:01.236---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:38:01.249---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:38:01.260---Warning: Synchronization might Have Problem
+2017/04/26 15:39:01.382---Notification: Foxpro Connection String Loaded
+2017/04/26 15:39:01.382---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:39:01.402---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:39:01.465---Warning: Synchronization might Have Problem
+2017/04/26 15:39:01.465---Notification: Foxpro Connection String Loaded
+2017/04/26 15:39:01.465---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:39:01.475---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:39:01.482---Warning: Synchronization might Have Problem
+2017/04/26 15:40:01.677---Notification: Foxpro Connection String Loaded
+2017/04/26 15:40:01.677---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:40:01.689---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:40:01.697---Warning: Synchronization might Have Problem
+2017/04/26 15:40:01.697---Notification: Foxpro Connection String Loaded
+2017/04/26 15:40:01.697---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:40:01.711---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:40:01.717---Warning: Synchronization might Have Problem
+2017/04/26 15:41:00.911---Notification: Foxpro Connection String Loaded
+2017/04/26 15:41:00.911---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:41:00.931---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:41:00.943---Warning: Synchronization might Have Problem
+2017/04/26 15:41:00.943---Notification: Foxpro Connection String Loaded
+2017/04/26 15:41:00.943---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:41:01.001---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:41:01.006---Warning: Synchronization might Have Problem
+2017/04/26 15:42:01.180---Notification: Foxpro Connection String Loaded
+2017/04/26 15:42:01.180---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:42:01.194---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:42:01.232---Warning: Synchronization might Have Problem
+2017/04/26 15:42:01.232---Notification: Foxpro Connection String Loaded
+2017/04/26 15:42:01.232---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:42:01.246---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:42:01.252---Warning: Synchronization might Have Problem
+2017/04/26 15:43:01.378---Notification: Foxpro Connection String Loaded
+2017/04/26 15:43:01.378---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:43:01.397---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:43:01.411---Warning: Synchronization might Have Problem
+2017/04/26 15:43:01.411---Notification: Foxpro Connection String Loaded
+2017/04/26 15:43:01.411---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:43:01.439---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:43:01.447---Warning: Synchronization might Have Problem
+2017/04/26 15:44:01.660---Notification: Foxpro Connection String Loaded
+2017/04/26 15:44:01.660---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:44:01.735---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:44:01.740---Warning: Synchronization might Have Problem
+2017/04/26 15:44:01.740---Notification: Foxpro Connection String Loaded
+2017/04/26 15:44:01.740---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:44:01.752---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:44:01.821---Warning: Synchronization might Have Problem
+2017/04/26 15:45:01.117---Notification: Foxpro Connection String Loaded
+2017/04/26 15:45:01.117---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:45:01.140---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:45:01.147---Warning: Synchronization might Have Problem
+2017/04/26 15:45:01.147---Notification: Foxpro Connection String Loaded
+2017/04/26 15:45:01.147---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:45:01.167---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:45:01.194---Warning: Synchronization might Have Problem
+2017/04/26 15:46:01.562---Notification: Foxpro Connection String Loaded
+2017/04/26 15:46:01.562---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:46:01.574---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:46:01.600---Warning: Synchronization might Have Problem
+2017/04/26 15:46:01.600---Notification: Foxpro Connection String Loaded
+2017/04/26 15:46:01.600---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:46:01.612---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:46:01.667---Warning: Synchronization might Have Problem
+2017/04/26 15:47:00.803---Notification: Foxpro Connection String Loaded
+2017/04/26 15:47:00.803---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:47:00.848---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:47:00.855---Warning: Synchronization might Have Problem
+2017/04/26 15:47:00.855---Notification: Foxpro Connection String Loaded
+2017/04/26 15:47:00.855---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:47:00.869---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:47:00.917---Warning: Synchronization might Have Problem
+2017/04/26 15:48:01.294---Notification: Foxpro Connection String Loaded
+2017/04/26 15:48:01.294---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:48:01.332---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:48:01.339---Warning: Synchronization might Have Problem
+2017/04/26 15:48:01.339---Notification: Foxpro Connection String Loaded
+2017/04/26 15:48:01.340---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:48:01.350---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:48:01.357---Warning: Synchronization might Have Problem
+2017/04/26 15:49:01.715---Notification: Foxpro Connection String Loaded
+2017/04/26 15:49:01.715---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:49:01.729---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:49:01.788---Warning: Synchronization might Have Problem
+2017/04/26 15:49:01.789---Notification: Foxpro Connection String Loaded
+2017/04/26 15:49:01.789---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:49:01.799---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:49:01.826---Warning: Synchronization might Have Problem
+2017/04/26 15:50:01.160---Notification: Foxpro Connection String Loaded
+2017/04/26 15:50:01.160---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:50:01.170---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:50:01.235---Warning: Synchronization might Have Problem
+2017/04/26 15:50:01.235---Notification: Foxpro Connection String Loaded
+2017/04/26 15:50:01.235---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:50:01.245---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:50:01.301---Warning: Synchronization might Have Problem
+2017/04/26 15:51:01.633---Notification: Foxpro Connection String Loaded
+2017/04/26 15:51:01.633---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:51:01.645---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:51:01.699---Warning: Synchronization might Have Problem
+2017/04/26 15:51:01.699---Notification: Foxpro Connection String Loaded
+2017/04/26 15:51:01.699---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:51:01.711---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:51:01.768---Warning: Synchronization might Have Problem
+2017/04/26 15:52:01.127---Notification: Foxpro Connection String Loaded
+2017/04/26 15:52:01.127---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:52:01.138---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:52:01.144---Warning: Synchronization might Have Problem
+2017/04/26 15:52:01.144---Notification: Foxpro Connection String Loaded
+2017/04/26 15:52:01.144---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:52:01.155---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:52:01.196---Warning: Synchronization might Have Problem
+2017/04/26 15:53:01.575---Notification: Foxpro Connection String Loaded
+2017/04/26 15:53:01.575---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:53:01.603---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:53:01.660---Warning: Synchronization might Have Problem
+2017/04/26 15:53:01.661---Notification: Foxpro Connection String Loaded
+2017/04/26 15:53:01.661---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:53:01.671---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:53:01.695---Warning: Synchronization might Have Problem
+2017/04/26 15:54:01.081---Notification: Foxpro Connection String Loaded
+2017/04/26 15:54:01.081---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:54:01.097---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:54:01.153---Warning: Synchronization might Have Problem
+2017/04/26 15:54:01.153---Notification: Foxpro Connection String Loaded
+2017/04/26 15:54:01.153---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:54:01.192---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:54:01.220---Warning: Synchronization might Have Problem
+2017/04/26 15:55:01.522---Notification: Foxpro Connection String Loaded
+2017/04/26 15:55:01.522---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:55:01.543---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:55:01.549---Warning: Synchronization might Have Problem
+2017/04/26 15:55:01.549---Notification: Foxpro Connection String Loaded
+2017/04/26 15:55:01.549---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:55:01.561---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:55:01.567---Warning: Synchronization might Have Problem
+2017/04/26 15:56:00.885---Notification: Foxpro Connection String Loaded
+2017/04/26 15:56:00.885---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:56:00.901---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:56:00.905---Warning: Synchronization might Have Problem
+2017/04/26 15:56:00.906---Notification: Foxpro Connection String Loaded
+2017/04/26 15:56:00.906---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:56:00.916---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:56:00.921---Warning: Synchronization might Have Problem
+2017/04/26 15:57:01.301---Notification: Foxpro Connection String Loaded
+2017/04/26 15:57:01.302---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:57:01.315---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:57:01.320---Warning: Synchronization might Have Problem
+2017/04/26 15:57:01.320---Notification: Foxpro Connection String Loaded
+2017/04/26 15:57:01.320---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:57:01.330---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:57:01.335---Warning: Synchronization might Have Problem
+2017/04/26 15:58:01.783---Notification: Foxpro Connection String Loaded
+2017/04/26 15:58:01.783---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:58:01.797---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:58:01.804---Warning: Synchronization might Have Problem
+2017/04/26 15:58:01.804---Notification: Foxpro Connection String Loaded
+2017/04/26 15:58:01.804---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:58:01.814---Error: Memo file c:\v2k\data\vappoint.fpt is missing or is invalid. in Foxpro GetData
+2017/04/26 15:58:01.818---Warning: Synchronization might Have Problem
+2017/04/26 15:59:01.236---Notification: Foxpro Connection String Loaded
+2017/04/26 15:59:01.236---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:59:16.543---Notification: Foxpro Connection String Loaded
+2017/04/26 15:59:16.543---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:59:29.641---Notification: Exiting File Logging Task
+2017/04/26 15:59:44.885---Notification: Sync Worker Launched
+2017/04/26 15:59:44.895---Notification: Foxpro Connection String Loaded
+2017/04/26 15:59:44.896---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 15:59:54.896---Notification: Foxpro Connection String Loaded
+2017/04/26 15:59:54.896---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:00:09.984---Notification: Exiting File Logging Task
+2017/04/26 16:00:11.141---Notification: Sync Worker Launched
+2017/04/26 16:00:11.141---Notification: Foxpro Connection String Loaded
+2017/04/26 16:00:11.141---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:00:22.738---Notification: Foxpro Connection String Loaded
+2017/04/26 16:00:22.738---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:00:35.796---Notification: Exiting File Logging Task
+2017/04/26 16:22:38.063---Notification: Sync Worker Launched
+2017/04/26 16:22:38.095---Notification: Foxpro Connection String Loaded
+2017/04/26 16:22:38.095---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:22:49.159---Notification: Foxpro Connection String Loaded
+2017/04/26 16:22:49.159---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:23:38.723---Notification: Foxpro Connection String Loaded
+2017/04/26 16:23:38.723---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:23:48.559---Notification: Foxpro Connection String Loaded
+2017/04/26 16:23:48.559---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:24:38.532---Notification: Foxpro Connection String Loaded
+2017/04/26 16:24:38.532---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:24:48.593---Notification: Foxpro Connection String Loaded
+2017/04/26 16:24:48.593---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:25:38.194---Notification: Foxpro Connection String Loaded
+2017/04/26 16:25:38.194---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:25:51.396---Notification: Foxpro Connection String Loaded
+2017/04/26 16:25:51.396---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:26:38.135---Notification: Foxpro Connection String Loaded
+2017/04/26 16:26:38.135---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:26:48.161---Notification: Foxpro Connection String Loaded
+2017/04/26 16:26:48.161---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:27:38.210---Notification: Foxpro Connection String Loaded
+2017/04/26 16:27:38.210---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:27:48.193---Notification: Foxpro Connection String Loaded
+2017/04/26 16:27:48.193---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:28:38.789---Notification: Foxpro Connection String Loaded
+2017/04/26 16:28:38.789---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:28:48.793---Notification: Foxpro Connection String Loaded
+2017/04/26 16:28:48.793---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:29:38.206---Notification: Foxpro Connection String Loaded
+2017/04/26 16:29:38.206---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:29:48.295---Notification: Foxpro Connection String Loaded
+2017/04/26 16:29:48.295---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 16:30:13.309---Notification: Exiting File Logging Task
+2017/04/26 20:39:45.195---Notification: Sync Worker Launched
+2017/04/26 20:39:45.211---Notification: Foxpro Connection String Loaded
+2017/04/26 20:39:45.212---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 20:39:47.280---Error: Cannot open file c:\v2k\data\vaccount.dbf. in Foxpro GetData
+2017/04/26 20:39:47.510---Warning: Synchronization might Have Problem
+2017/04/26 20:39:47.511---Notification: Foxpro Connection String Loaded
+2017/04/26 20:39:47.511---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 20:39:47.821---Error: Cannot open file c:\v2k\data\vaccount.dbf. in Foxpro GetData
+2017/04/26 20:39:47.881---Warning: Synchronization might Have Problem
+2017/04/26 20:39:59.011---Notification: Exiting File Logging Task
+2017/04/26 20:40:12.768---Notification: Sync Worker Launched
+2017/04/26 20:40:13.788---Notification: Foxpro Connection String Loaded
+2017/04/26 20:40:13.788---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 20:40:17.305---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:29.181---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:29.728---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:30.269---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:30.832---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:31.503---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:32.128---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:32.655---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:33.202---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:33.780---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:34.484---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:35.018---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:35.533---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:36.127---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:36.737---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:37.315---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:37.830---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:38.478---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:39.651---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:40.182---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:40.755---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:41.317---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:41.938---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:42.501---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:43.047---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:43.585---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:44.257---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:44.773---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:45.382---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:45.910---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:46.457---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:47.098---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:47.629---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:48.239---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:48.802---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:49.411---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:49.989---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:50.536---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:51.052---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:51.645---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:52.255---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:52.820---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:53.330---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:53.908---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:54.549---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:55.207---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:55.738---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:56.269---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:56.785---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:57.504---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:58.020---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:58.583---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:59.098---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:40:59.661---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:00.177---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:00.770---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:01.282---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:01.861---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:02.423---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:02.973---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:03.489---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:04.176---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:04.739---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:05.298---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:05.830---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:06.377---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:06.969---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:07.524---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:08.118---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:08.696---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:09.305---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:09.872---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:10.388---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:11.055---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:11.654---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:12.280---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:12.843---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:13.484---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:14.036---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:14.755---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:15.333---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:15.909---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:16.487---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:17.112---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:17.690---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:18.333---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:18.942---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:19.489---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:20.036---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:20.583---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:21.225---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:21.819---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:22.364---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:22.911---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:23.458---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:24.012---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:24.606---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:25.171---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:25.714---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:26.276---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:26.870---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:27.495---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:28.057---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:28.604---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:29.151---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:29.825---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:30.441---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:31.031---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:31.623---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:32.190---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:32.742---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:33.432---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:34.010---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:34.557---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:41:35.107---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/04/26 20:43:25.057---Notification: Sync Worker Launched
+2017/04/26 20:43:25.083---Notification: Foxpro Connection String Loaded
+2017/04/26 20:43:25.085---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 20:47:07.999---Notification: Sync Worker Launched
+2017/04/26 20:47:08.037---Notification: Foxpro Connection String Loaded
+2017/04/26 20:47:08.038---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 20:59:15.541---Notification: Foxpro Connection String Loaded
+2017/04/26 20:59:15.541---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 21:11:30.380---Error: 发生一个或多个错误。 in SimplyCastWebAPI GetData
+2017/04/26 21:11:30.418---Warning: Synchronization might Have Problem
+2017/04/26 21:11:31.420---Notification: Exiting File Logging Task
+2017/04/26 21:16:11.346---Notification: Sync Worker Launched
+2017/04/26 21:16:11.359---Notification: Foxpro Connection String Loaded
+2017/04/26 21:16:11.360---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 21:27:47.683---Notification: Foxpro Connection String Loaded
+2017/04/26 21:27:47.683---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 21:40:48.143---Notification: Foxpro Connection String Loaded
+2017/04/26 21:40:48.144---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 21:52:13.304---Notification: Foxpro Connection String Loaded
+2017/04/26 21:52:13.304---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 22:05:01.776---Notification: Foxpro Connection String Loaded
+2017/04/26 22:05:01.776---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 22:16:32.771---Notification: Foxpro Connection String Loaded
+2017/04/26 22:16:32.771---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 22:29:17.912---Notification: Foxpro Connection String Loaded
+2017/04/26 22:29:17.912---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 22:40:48.472---Notification: Foxpro Connection String Loaded
+2017/04/26 22:40:48.472---Notification: SimplyCastWebApi Connection String Loaded
+2017/04/26 22:59:32.516---Notification: Foxpro Connection String Loaded
+2017/04/26 22:59:32.516---Notification: SimplyCastWebApi Connection String Loaded

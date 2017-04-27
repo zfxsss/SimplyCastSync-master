@@ -4,3 +4,17 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\Simpl
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.csprojResolveAssemblyReference.cache
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.exe
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.pdb
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\JsonTemplate\simplycast_updatecontact.json
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSyncSvc.exe.config
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSyncSvc.exe
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSyncSvc.pdb
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSync.dll
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\SimplyCastSync.pdb
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.csprojResolveAssemblyReference.cache
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.ProjectInstaller.resources
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.csproj.GenerateResource.Cache
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.exe
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSyncSvc\obj\Debug\SimplyCastSyncSvc.pdb

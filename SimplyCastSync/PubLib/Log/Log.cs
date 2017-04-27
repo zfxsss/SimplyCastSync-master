@@ -72,9 +72,10 @@ namespace SimplyCastSync.PubLib.Log
 
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                //Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + System.Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + "Error" + ": " + ex.Message);
             }
         }
 
@@ -84,7 +85,7 @@ namespace SimplyCastSync.PubLib.Log
         public static void ExportConsoleLog()
         {
             Console.BufferHeight = 2048;
-            ExceptionBody eb;
+            ExceptionBody eb = null;
             while (true)
             {
                 try
@@ -131,7 +132,7 @@ namespace SimplyCastSync.PubLib.Log
         /// </summary>
         public static void ExportFileLog()
         {
-            ExceptionBody eb;
+            ExceptionBody eb = null;
             while (true)
             {
                 try
@@ -144,17 +145,16 @@ namespace SimplyCastSync.PubLib.Log
                         streamwr.WriteLine(textline);
                     }
 
-                    //File.WriteAllLines(@"FileLog\log_" + DateTime.Now.ToString("yyyyMMdd") + ".txt", textline);
-
                     if (eb.es == ExceptionSrc.Exit)
                     {
                         Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
                         break;
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    //Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + System.Enum.GetName(typeof(ExceptionType), eb.et) + ": " + eb.info);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine(eb.ts.ToString("yyyy/MM/dd HH:mm:ss.fff") + "---" + "Error" + ": " + ex.Message);
                 }
             }
 

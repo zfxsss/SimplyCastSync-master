@@ -73,13 +73,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="JsonTemplate\simplycast_emptycontacts.json">
+    <Content Include="JsonTemplate\simplycast_emptycontacts.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="JsonTemplate\simplycast_updatecontact.json">
+    </Content>
+    <Content Include="JsonTemplate\simplycast_updatecontact.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="packages.config" />
+    <None Include="process_config_simple_backup2.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="process_config_simple_backup.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -117,13 +120,14 @@
       <Name>SimplyCastSync</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FileLog\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\valuedpatient.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FileLog\log_20170425.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\vp.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

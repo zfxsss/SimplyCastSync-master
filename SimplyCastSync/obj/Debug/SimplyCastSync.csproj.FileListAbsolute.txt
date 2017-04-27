@@ -36,4 +36,3 @@ C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync\bin\Debug\Ne
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.dll
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.pdb
-C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.csprojResolveAssemblyReference.cache

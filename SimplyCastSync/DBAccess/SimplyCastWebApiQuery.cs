@@ -141,7 +141,7 @@ namespace SimplyCastSync.DBAccess
                                 using (var updatetask = client.PostAsync(querystring, new StringContent(CreateBodyString((JObject)rd), Encoding.UTF8, "application/json")))
                                 {
                                     updatetask.Wait();
-                                    if (updatetask.Result.StatusCode != System.Net.HttpStatusCode.OK)
+                                    if ((updatetask.Result.StatusCode != System.Net.HttpStatusCode.OK) && (updatetask.Result.StatusCode != System.Net.HttpStatusCode.Created))
                                     {
                                         new DomainException("Update StatusCode Not OK in SimplyCastWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
                                     }
