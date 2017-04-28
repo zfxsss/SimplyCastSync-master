@@ -79,3 +79,4 @@ C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\obj\
 C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup2.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\FileLog\log_20170425.txt
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup2.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup3.json
