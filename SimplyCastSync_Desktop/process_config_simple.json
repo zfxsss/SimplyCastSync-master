@@ -16,16 +16,8 @@
         "ds": "simplycastwebapi",
         "dstype": "JObject",
         "fields": {
-          "uniquefieldname": "id",
-          "uniquefieldpath": "$.contacts[{i}].id",
-          "keyfieldsname": [ "PXID" ],
           "keyfieldsindex": [ "108" ],
-          "keynametag": "name",
-          "keyvaluetag": "value",
-          "otherfieldsname": [ "BIRTHDAY", "NEXTAPPTDATE", "DUEDATE", "LETTER", "LASTVISIT", "RECALL", "LASTPURCHASEAMT", "OCCUPATION", "GENDER", "APPTIME", "LAST_NAME", "FIRST_NAME", "RECALLSENT" ],
           "otherfieldsindex": [ "106", "85", "99", "107", "86", "109", "111", "105", "82", "112", "84", "83", "110", "77", "5", "6", "8", "9", "10", "7", "23", "47", "55", "1" ],
-          "othernametag": "name",
-          "othervaluetag": "value",
           "existingjsonpath": "$.contacts[0].id"
         },
         "querystring": "contactmanager/contacts?query=`108` = \"{1}\"",
@@ -42,27 +34,19 @@
         "fields": {
           "uniquefield": "id",
           "keyfields": [ "REFNUM" ],
-          "valuefields": [ "EMAIL", "POSTCODE" ]
+          "valuefields": [ "SENDDATE", "LETTER" ]
         },
-        "querystring": "select  a.ADDR1, a.ADDR2, a.ADDR3, a.EMAIL, a.HPHONE, a.MOBILE, a.POSTCODE, a.STATE, a.TITLE, a.OCCUPT, a.SURNAME, a.GIVEN_NAME, a.POSTADDR1, a.POSTADDR2, a.POSTADDR3, a.POSTSTATE, a.POSTPCODE, a.SEX, a.WPHONE, a.PHONE3, a.POSTNAME, a.BIRTHDAY, a.FIRSTVISIT, a.LASTRCLET, a.LASTRECALL, a.LASTVISIT, a.NEXTRCLET, a.NEXTRECALL, a.RECALL, a.RECALLSENT, a.FPOSTADDR, a.RCPERIOD, a.REFNUM, b.BOOKDATE, b.STARTTIME, b.STATUS, c.PAMOUNT from VPATIENT a left join (select k.BOOKDATE, k.STARTTIME, k.REFNUM, k.STATUS from (select max(BOOKDATE) as BOOKDATE, REFNUM from VAPPOINT group by REFNUM) h inner join VAPPOINT k on h.BOOKDATE = k.BOOKDATE and h.REFNUM = k.REFNUM) b on a.REFNUM = b.REFNUM left join (SELECT n.REFNUM, SUM(n.PAMOUNT) as PAMOUNT FROM (SELECT MAX(ACCDATE) as ACCDATE,REFNUM from VACCOUNT GROUP BY REFNUM) m inner join VACCOUNT n on m.ACCDATE = n.ACCDATE and m.REFNUM = n.REFNUM GROUP BY n.REFNUM) c on a.REFNUM = c.REFNUM where (!EMPTY(TRIM(a.SURNAME)) OR !EMPTY(TRIM(a.GIVEN_NAME))) order by a.REFNUM"
+        "querystring": "select  'Australia' as COUNTRY, (a.GIVEN_NAME + a.SURNAME) as FULLNAME, a.ADDR1, a.ADDR2, a.ADDR3, a.EMAIL, a.HPHONE, IIF(TRIM(a.MOBILE) == '','','+061'+ a.MOBILE) as MOBILE, a.POSTCODE, a.STATE, a.TITLE, a.OCCUPT, a.SURNAME, a.GIVEN_NAME, a.POSTADDR1, a.POSTADDR2, a.POSTADDR3, a.POSTSTATE, a.POSTPCODE, a.SEX, a.WPHONE, a.PHONE3, a.POSTNAME, a.BIRTHDAY, a.FIRSTVISIT, a.LASTRCLET, a.LASTRECALL, a.LASTVISIT, a.NEXTRCLET, a.NEXTRECALL, a.RECALL, a.RECALLSENT, a.FPOSTADDR, a.RCPERIOD, a.REFNUM, b.BOOKDATE, b.STARTTIME, b.STATUS, c.PAMOUNT from VPATIENT a left join (select k.BOOKDATE, k.STARTTIME, k.REFNUM, k.STATUS from (select max(BOOKDATE) as BOOKDATE, REFNUM from VAPPOINT group by REFNUM) h inner join VAPPOINT k on h.BOOKDATE = k.BOOKDATE and h.REFNUM = k.REFNUM) b on a.REFNUM = b.REFNUM left join (SELECT n.REFNUM, SUM(n.PAMOUNT) as PAMOUNT FROM (SELECT MAX(ACCDATE) as ACCDATE,REFNUM from VACCOUNT GROUP BY REFNUM) m inner join VACCOUNT n on m.ACCDATE = n.ACCDATE and m.REFNUM = n.REFNUM GROUP BY n.REFNUM) c on a.REFNUM = c.REFNUM where (!EMPTY(TRIM(a.SURNAME)) OR !EMPTY(TRIM(a.GIVEN_NAME))) order by a.REFNUM"
       },
       "destination": {
-        "ds": "simplycastwebapi_jeff",
+        "ds": "simplycastwebapi",
         "dstype": "JObject",
         "fields": {
-          "uniquefieldname": "id",
-          "uniquefieldpath": "$.contacts[{i}].id",
-          "keyfieldsname": [ "REFNUM" ],
-          "keyfieldsindex": [ "120" ],
-          "keynametag": "name",
-          "keyvaluetag": "value",
-          "otherfieldsname": [ "email", "zip" ],
-          "otherfieldsindex": [ "23", "10" ],
-          "othernametag": "name",
-          "othervaluetag": "value",
+          "keyfieldsindex": [ "108" ],
+          "otherfieldsindex": [ "106", "85", "99", "107", "86", "109", "111", "105", "82", "112", "84", "83", "110", "77", "5", "6", "8", "9", "10", "7", "23", "47", "55", "1" ],
           "existingjsonpath": "$.contacts[0].id"
         },
-        "querystring": "contactmanager/contacts?query=`120` = \"{1}\"",
+        "querystring": "contactmanager/contacts?query=`108` = \"{1}\"",
         "updatestring": "?q=api/call&request=contactmanager/contacts/{1}",
         "addstring": "?q=api/call&request=contactmanager/contacts"
       },
@@ -82,11 +66,6 @@
       "name": "localfoxpro",
       "queryname": "FoxproData",
       "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data;Mode=Read;"
-    },
-    {
-      "name": "simplycastwebapi_jeff",
-      "queryname": "SimplyCastWebApi",
-      "connstr": "UpdateAddress=https://app.simplycast.com;QueryAddress=https://api.simplycast.com;PublicKey=a8fe3712113090e5666a6b374452dc930d710553;SecretKey=7dc2feccd12ec26534a405c611f0134481c3394e;"
     },
     {
       "name": "simplycastwebapi",
