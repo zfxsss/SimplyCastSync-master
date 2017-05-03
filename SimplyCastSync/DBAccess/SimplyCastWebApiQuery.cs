@@ -78,7 +78,7 @@ namespace SimplyCastSync.DBAccess
                         else if (gettask.Result.StatusCode == System.Net.HttpStatusCode.NoContent)
                         {
                             // need modify for configurable files, how to config file route......
-                            return JObject.Parse(File.ReadAllText(@"JsonTemplate\simplycast_emptycontacts.json"));
+                            return JObject.Parse(File.ReadAllText(@"JsonTemplate\valuedpatient_emptycontacts.json"));
                         }
                         else
                         {
@@ -170,7 +170,7 @@ namespace SimplyCastSync.DBAccess
         /// <returns></returns>
         private string CreateBodyString(JObject body)
         {
-            var newbody = JObject.Parse(File.ReadAllText(@"JsonTemplate\simplycast_updatecontact.json"));
+            var newbody = JObject.Parse(File.ReadAllText(@"JsonTemplate\valuedpatient_updatecontact.json"));
             foreach (var p in body)
             {
                 var newitem = new JObject();

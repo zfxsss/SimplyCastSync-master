@@ -11,8 +11,21 @@
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
 "SccProvider" = "8:"
+"BackwardsCompatibleGUIDGeneration" = "8:TRUE"
     "Hierarchy"
     {
+        "Entry"
+        {
+        "MsmKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
+        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
+        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
+        "MsmSig" = "8:_UNDEFINED"
+        }
         "Entry"
         {
         "MsmKey" = "8:_2E7CC85EC9DE4E4AB26DC0A730CCFF24"
@@ -27,56 +40,44 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_693432DC3827B4FBF661DD8109A4ADA0"
-        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_693432DC3827B4FBF661DD8109A4ADA0"
-        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_AC1ECEE8F0C043DE9935D4168CA4D17C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BC8515696234D7D64D3DF228FB79E139"
+        "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
         "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BC8515696234D7D64D3DF228FB79E139"
-        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
+        "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
+        "OwnerKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BC8515696234D7D64D3DF228FB79E139"
-        "OwnerKey" = "8:_693432DC3827B4FBF661DD8109A4ADA0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
-        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
+        "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
         "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
-        "OwnerKey" = "8:_693432DC3827B4FBF661DD8109A4ADA0"
+        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
+        "OwnerKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
+        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,7 +89,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
+        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -100,19 +101,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
+        "OwnerKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_693432DC3827B4FBF661DD8109A4ADA0"
+        "OwnerKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BC8515696234D7D64D3DF228FB79E139"
+        "OwnerKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -123,7 +124,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\SimplyCastSyncInstaller.msi"
+        "OutputFilename" = "8:Debug\\ValuedPatientSyncInstaller.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -172,6 +173,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
             }
         }
     }
@@ -314,34 +323,14 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2E7CC85EC9DE4E4AB26DC0A730CCFF24"
-            {
-            "SourcePath" = "8:..\\SimplyCastSync_Desktop\\bin\\Debug\\process_config.json"
-            "TargetName" = "8:process_config.json"
-            "Tag" = "8:"
-            "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_693432DC3827B4FBF661DD8109A4ADA0"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_10FB82E6F34A45A28E91D63E8E7E76F6"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SimplyCastSync, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_693432DC3827B4FBF661DD8109A4ADA0"
+                    "_10FB82E6F34A45A28E91D63E8E7E76F6"
                     {
                     "Name" = "8:SimplyCastSync.dll"
                     "Attributes" = "3:512"
@@ -365,6 +354,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2E7CC85EC9DE4E4AB26DC0A730CCFF24"
+            {
+            "SourcePath" = "8:..\\SimplyCastSync_Desktop\\bin\\Debug\\process_config.json"
+            "TargetName" = "8:process_config.json"
+            "Tag" = "8:"
+            "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AC1ECEE8F0C043DE9935D4168CA4D17C"
             {
             "SourcePath" = "8:..\\SimplyCastSync_Desktop\\bin\\Debug\\process_config_simple.json"
@@ -385,14 +394,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BC8515696234D7D64D3DF228FB79E139"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B9629387143CBA15A3D70038EA641CA6"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_BC8515696234D7D64D3DF228FB79E139"
+                    "_B9629387143CBA15A3D70038EA641CA6"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -502,9 +511,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:SimplyCastSync"
+        "ProductName" = "8:ValuedPatientSync"
         "ProductCode" = "8:{5DE478BD-A79F-41C0-AEC3-C88AD20215D5}"
-        "PackageCode" = "8:{52BC103C-3256-4294-9DF6-8A8E5E1805B6}"
+        "PackageCode" = "8:{E4AA87F0-D9F3-46DD-8AE4-DC46E556137D}"
         "UpgradeCode" = "8:{E023D353-DA1D-44BD-B001-B942B15814DD}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -512,12 +521,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:SimplyCast"
+        "Manufacturer" = "8:ValuedPatient"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:SimplyCastSyncInstaller"
+        "Title" = "8:ValuedPatientSyncInstaller"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:SimplyCast"
+        "ARPCONTACT" = "8:ValuedPatient"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -637,7 +646,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B39369DBA42D47CAAF19583E18620C1F"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
+                    "DisplayName" = "8:进度"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -681,7 +690,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_16EF12DB13A34B96B0EEF398CEB733C9"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
+                    "DisplayName" = "8:确认安装"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -703,7 +712,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2662F21D4DA2452A9AA5186D60C83F48"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
+                    "DisplayName" = "8:安装文件夹"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -738,7 +747,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8CA909CBEAB04EA6B5CD19C2576A7E5B"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
+                    "DisplayName" = "8:欢迎使用"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -795,7 +804,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C82B2F8AB21E473F9B5311A4C12CCF38"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
+                    "DisplayName" = "8:进度"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -845,7 +854,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_45BFE875315343B7975F384396ABD3A8"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
+                    "DisplayName" = "8:确认安装"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -867,7 +876,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_76E4F04AF8CE4670AFAFCE1DDA957121"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
+                    "DisplayName" = "8:安装文件夹"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -889,7 +898,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_839E1D64128C4FE4BD65F7D70F8273A0"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
+                    "DisplayName" = "8:欢迎使用"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -952,7 +961,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C0D83C2F9D9D47FFB2D14EB4F913B1AE"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
+                    "DisplayName" = "8:已完成"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -983,7 +992,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F417053D53A440B0BC82ABC41422F8AC"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
+                    "DisplayName" = "8:已完成"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"

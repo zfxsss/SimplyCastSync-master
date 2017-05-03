@@ -21,5 +21,14 @@ namespace SimplyCastSync.DBAccess.Tests
 
             Assert.Fail();
         }
+
+        [TestMethod()]
+        public void GetDataTest2()
+        {
+            var foxquery = new FoxproDataQuery("Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data;");
+            var result = foxquery.GetData("SELECT * FROM vpatient a INNER JOIN vprecall b ON a.Refnum = b.Refnum");
+
+            var oo = result.Tables[0].Select("REFNUM = 1");
+        }
     }
 }

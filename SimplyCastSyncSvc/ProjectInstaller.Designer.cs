@@ -40,8 +40,8 @@
             // serviceInstaller1
             // 
             this.serviceInstaller1.Description = "Data synchonization between different datasources";
-            this.serviceInstaller1.DisplayName = "SimplyCastSync";
-            this.serviceInstaller1.ServiceName = "SimplyCastSync";
+            this.serviceInstaller1.DisplayName = "ValuedPatientSync";
+            this.serviceInstaller1.ServiceName = "ValuedPatientSync";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller

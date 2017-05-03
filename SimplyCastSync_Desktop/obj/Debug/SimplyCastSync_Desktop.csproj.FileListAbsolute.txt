@@ -35,9 +35,6 @@ C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\
 C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.exe
 C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.pdb
 C:\Users\Jeff Xu\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\simplycast_updatecontact.json
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.exe.config
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.exe
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.pdb
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\simplycast_updatecontact.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\simplycast_emptycontacts.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_backup5.json
@@ -45,11 +42,7 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple.json
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.exe
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync_Desktop.pdb
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\Newtonsoft.Json.dll
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync.dll
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\SimplyCastSync.pdb
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\Newtonsoft.Json.xml
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.csprojResolveAssemblyReference.cache
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.Form1.resources
@@ -80,3 +73,16 @@ C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\FileLog\log_20170425.txt
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup2.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup3.json
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup3.json
+C:\Users\Jeff Xu\Desktop\_Net_\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup4.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup4.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup5.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\ValuedPatientSync_Desktop.exe.config
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\ValuedPatientSync_Desktop.exe
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\ValuedPatientSync_Desktop.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\ValuedPatientSync.dll
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\ValuedPatientSync.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\ValuedPatientSync_Desktop.exe
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\ValuedPatientSync_Desktop.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\valuedpatient_emptycontacts.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\valuedpatient_updatecontact.json

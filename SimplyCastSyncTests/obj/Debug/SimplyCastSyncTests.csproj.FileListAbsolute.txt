@@ -33,9 +33,10 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\Jso
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSyncTests.dll
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSyncTests.pdb
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSync.dll
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\SimplyCastSync.pdb
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.csprojResolveAssemblyReference.cache
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.dll
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\obj\Debug\SimplyCastSyncTests.pdb
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\process_config_simple.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\ValuedPatientSync.dll
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSyncTests\bin\Debug\ValuedPatientSync.pdb
