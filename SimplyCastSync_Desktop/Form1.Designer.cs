@@ -41,9 +41,9 @@
             // 
             // syncsimple_btn
             // 
-            this.syncsimple_btn.Location = new System.Drawing.Point(58, 88);
+            this.syncsimple_btn.Location = new System.Drawing.Point(58, 81);
             this.syncsimple_btn.Name = "syncsimple_btn";
-            this.syncsimple_btn.Size = new System.Drawing.Size(88, 50);
+            this.syncsimple_btn.Size = new System.Drawing.Size(88, 46);
             this.syncsimple_btn.TabIndex = 2;
             this.syncsimple_btn.Text = "Start Sync";
             this.syncsimple_btn.UseVisualStyleBackColor = true;
@@ -51,9 +51,9 @@
             // 
             // stopsync_btn
             // 
-            this.stopsync_btn.Location = new System.Drawing.Point(205, 88);
+            this.stopsync_btn.Location = new System.Drawing.Point(205, 81);
             this.stopsync_btn.Name = "stopsync_btn";
-            this.stopsync_btn.Size = new System.Drawing.Size(88, 50);
+            this.stopsync_btn.Size = new System.Drawing.Size(88, 46);
             this.stopsync_btn.TabIndex = 3;
             this.stopsync_btn.Text = "Stop Sync";
             this.stopsync_btn.UseVisualStyleBackColor = true;
@@ -66,7 +66,7 @@
             this.aboutUsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(351, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(351, 25);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,36 +76,36 @@
             this.currentLoggingFileToolStripMenuItem,
             this.openLoggingDirectoryToolStripMenuItem});
             this.loggingToolStripMenuItem.Name = "loggingToolStripMenuItem";
-            this.loggingToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.loggingToolStripMenuItem.Size = new System.Drawing.Size(48, 21);
             this.loggingToolStripMenuItem.Text = "Logs";
             // 
             // currentLoggingFileToolStripMenuItem
             // 
             this.currentLoggingFileToolStripMenuItem.Name = "currentLoggingFileToolStripMenuItem";
-            this.currentLoggingFileToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.currentLoggingFileToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.currentLoggingFileToolStripMenuItem.Text = "Open Log File";
             this.currentLoggingFileToolStripMenuItem.Click += new System.EventHandler(this.currentLoggingFileToolStripMenuItem_Click);
             // 
             // openLoggingDirectoryToolStripMenuItem
             // 
             this.openLoggingDirectoryToolStripMenuItem.Name = "openLoggingDirectoryToolStripMenuItem";
-            this.openLoggingDirectoryToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.openLoggingDirectoryToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.openLoggingDirectoryToolStripMenuItem.Text = "Open Log Directory";
             this.openLoggingDirectoryToolStripMenuItem.Click += new System.EventHandler(this.openLoggingDirectoryToolStripMenuItem_Click);
             // 
             // aboutUsToolStripMenuItem
             // 
             this.aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
-            this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(74, 21);
             this.aboutUsToolStripMenuItem.Text = "About Us";
             this.aboutUsToolStripMenuItem.Visible = false;
             this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 213);
+            this.ClientSize = new System.Drawing.Size(351, 197);
             this.Controls.Add(this.stopsync_btn);
             this.Controls.Add(this.syncsimple_btn);
             this.Controls.Add(this.menuStrip1);
@@ -113,7 +113,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Sunix_SimplyCast";
+            this.Text = "Sunix_ValuedPatient";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.menuStrip1.ResumeLayout(false);

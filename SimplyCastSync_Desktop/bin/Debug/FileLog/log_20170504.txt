@@ -1,0 +1,16 @@
+2017/05/04 11:21:04.597---Notification: Sync Worker Launched
+2017/05/04 11:21:04.643---Notification: Foxpro Connection String Loaded
+2017/05/04 11:21:04.645---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/04 11:21:04.996---Error: Cannot open file c:\v2k\data\vpatient.dbf. in Foxpro GetData
+2017/05/04 11:21:05.010---Warning: Synchronization might Have Problem
+2017/05/04 11:21:05.010---Notification: Foxpro Connection String Loaded
+2017/05/04 11:21:05.010---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/04 11:21:05.040---Error: Cannot open file c:\v2k\data\vpatient.dbf. in Foxpro GetData
+2017/05/04 11:21:05.065---Warning: Synchronization might Have Problem
+2017/05/04 11:21:09.068---Notification: Exiting File Logging Task
+2017/05/04 11:21:18.698---Notification: Sync Worker Launched
+2017/05/04 11:21:18.699---Notification: Foxpro Connection String Loaded
+2017/05/04 11:21:18.699---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/04 11:32:46.099---Notification: Foxpro Connection String Loaded
+2017/05/04 11:32:46.099---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/04 11:45:28.172---Notification: Exiting File Logging Task

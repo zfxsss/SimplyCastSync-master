@@ -16,18 +16,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
-        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
-        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2E7CC85EC9DE4E4AB26DC0A730CCFF24"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -36,6 +24,18 @@
         {
         "MsmKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
+        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
+        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -53,7 +53,7 @@
         "Entry"
         {
         "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
-        "OwnerKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
+        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -71,7 +71,7 @@
         "Entry"
         {
         "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
-        "OwnerKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
+        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -95,13 +95,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
+        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_10FB82E6F34A45A28E91D63E8E7E76F6"
+        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -323,37 +323,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_10FB82E6F34A45A28E91D63E8E7E76F6"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SimplyCastSync, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_10FB82E6F34A45A28E91D63E8E7E76F6"
-                    {
-                    "Name" = "8:SimplyCastSync.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:SimplyCastSync.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2E7CC85EC9DE4E4AB26DC0A730CCFF24"
             {
             "SourcePath" = "8:..\\SimplyCastSync_Desktop\\bin\\Debug\\process_config.json"
@@ -372,6 +341,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5A8BB6876FF8971BA9936AA76232F67E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ValuedPatientSync, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_5A8BB6876FF8971BA9936AA76232F67E"
+                    {
+                    "Name" = "8:ValuedPatientSync.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ValuedPatientSync.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AC1ECEE8F0C043DE9935D4168CA4D17C"
@@ -513,7 +513,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ValuedPatientSync"
         "ProductCode" = "8:{5DE478BD-A79F-41C0-AEC3-C88AD20215D5}"
-        "PackageCode" = "8:{E4AA87F0-D9F3-46DD-8AE4-DC46E556137D}"
+        "PackageCode" = "8:{4EDA7714-BF0B-4880-ACF5-B6A231E7B85C}"
         "UpgradeCode" = "8:{E023D353-DA1D-44BD-B001-B942B15814DD}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1062,7 +1062,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3FEB2E1FEA444059A8DB45E6F9E89386"
             {
-            "SourcePath" = "8:..\\SimplyCastSync_Desktop\\obj\\Debug\\SimplyCastSync_Desktop.exe"
+            "SourcePath" = "8:..\\SimplyCastSync_Desktop\\obj\\Debug\\ValuedPatientSync_Desktop.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
@@ -1090,7 +1090,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D381849D1A344F9496E5BC84EE8D0B50"
             {
-            "SourcePath" = "8:..\\SimplyCastSyncSvc\\obj\\Debug\\SimplyCastSyncSvc.exe"
+            "SourcePath" = "8:..\\SimplyCastSyncSvc\\obj\\Debug\\ValuedPatientSyncSvc.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
