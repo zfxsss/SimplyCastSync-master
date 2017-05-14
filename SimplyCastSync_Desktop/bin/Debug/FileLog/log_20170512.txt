@@ -1,0 +1,14 @@
+2017/05/12 18:22:02.643---Notification: Sync Worker Launched
+2017/05/12 18:22:02.670---Notification: Foxpro Connection String Loaded
+2017/05/12 18:22:02.673---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/12 18:26:49.122---Error: Update StatusCode Not OK in SimplyCastWebApi UpdateData
+2017/05/12 19:22:03.158---Notification: Foxpro Connection String Loaded
+2017/05/12 19:22:03.158---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/12 20:22:02.816---Notification: Foxpro Connection String Loaded
+2017/05/12 20:22:02.816---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/12 21:22:03.002---Notification: Foxpro Connection String Loaded
+2017/05/12 21:22:03.002---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/12 22:52:37.293---Notification: Foxpro Connection String Loaded
+2017/05/12 22:52:37.293---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/12 22:52:45.068---Error: 发生一个或多个错误。 in SimplyCastWebAPI GetData
+2017/05/12 22:52:45.862---Warning: Synchronization might Have Problem

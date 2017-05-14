@@ -87,3 +87,5 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\valuedpatient_emptycontacts.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\JsonTemplate\valuedpatient_updatecontact.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup6.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup7.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup8.json

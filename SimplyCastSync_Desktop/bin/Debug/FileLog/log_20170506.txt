@@ -1,0 +1,3 @@
+2017/05/06 09:16:58.308---Notification: Sync Worker Launched
+2017/05/06 09:16:58.334---Notification: Foxpro Connection String Loaded
+2017/05/06 09:16:58.339---Notification: SimplyCastWebApi Connection String Loaded

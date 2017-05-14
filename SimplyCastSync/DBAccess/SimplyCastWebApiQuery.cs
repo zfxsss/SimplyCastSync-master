@@ -57,7 +57,7 @@ namespace SimplyCastSync.DBAccess
         public JObject GetData(string querystr)
         {
             //add log
-            new DomainException("GetData in SimplyCastWebApi", ExceptionSrc.Processing, ExceptionType.Message);
+            new DomainException("GetData in ValuedPatientWebApi", ExceptionSrc.Processing, ExceptionType.Message);
 
             try
             {
@@ -90,7 +90,7 @@ namespace SimplyCastSync.DBAccess
             catch (Exception ex)
             {
                 // add log
-                throw new DomainException(ex.Message + " in SimplyCastWebAPI GetData", ExceptionSrc.Processing, ExceptionType.Error);
+                throw new DomainException(ex.Message + " in ValuedPatientWebAPI GetData", ExceptionSrc.Processing, ExceptionType.Error);
                 //return null;
             }
         }
@@ -119,7 +119,7 @@ namespace SimplyCastSync.DBAccess
                             try
                             {
                                 //add log
-                                new DomainException("UpdateData in SimplyCastWebApi", ExceptionSrc.Processing, ExceptionType.Message);
+                                new DomainException("UpdateData in ValuedPatientWebApi", ExceptionSrc.Processing, ExceptionType.Message);
 
                                 var querystring = "";
 
@@ -143,13 +143,13 @@ namespace SimplyCastSync.DBAccess
                                     updatetask.Wait();
                                     if ((updatetask.Result.StatusCode != System.Net.HttpStatusCode.OK) && (updatetask.Result.StatusCode != System.Net.HttpStatusCode.Created))
                                     {
-                                        new DomainException("Update StatusCode Not OK in SimplyCastWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
+                                        new DomainException("Update StatusCode Not OK in ValuedPatientWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
                                     }
                                 }
                             }
                             catch (Exception ex)
                             {
-                                new DomainException(ex.Message + " in SimplyCastWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
+                                new DomainException(ex.Message + " in ValuedPatientWebApi UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
                             }
 
                         } // end of foreach
@@ -159,7 +159,7 @@ namespace SimplyCastSync.DBAccess
             } //end of using
             catch (Exception ex)
             {
-                throw new DomainException(ex.Message + " in SimplyCastWebAPI UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
+                throw new DomainException(ex.Message + " in ValuedPatientWebAPI UpdateData", ExceptionSrc.Processing, ExceptionType.Error);
             }
 
         }//end of method
@@ -220,7 +220,7 @@ namespace SimplyCastSync.DBAccess
             key = Convert.ToBase64String(Encoding.ASCII.GetBytes(pubkey + ":" + secretkey));
 
             // add log
-            new DomainException("SimplyCastWebApi Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Notification);
+            new DomainException("ValuedPatientWebApi Connection String Loaded", ExceptionSrc.Processing, ExceptionType.Notification);
         }
     }
 }

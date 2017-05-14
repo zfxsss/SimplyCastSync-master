@@ -114,7 +114,6 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Sunix_ValuedPatient";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

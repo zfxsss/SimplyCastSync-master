@@ -1,0 +1,41 @@
+2017/05/14 09:03:04.481---Notification: Sync Worker Launched
+2017/05/14 09:03:04.548---Notification: Foxpro Connection String Loaded
+2017/05/14 09:03:04.549---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 09:03:04.959---Error: Invalid path or file name. in Foxpro GetData
+2017/05/14 09:03:04.998---Warning: Synchronization might Have Problem
+2017/05/14 09:03:04.998---Notification: Foxpro Connection String Loaded
+2017/05/14 09:03:04.998---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 09:03:05.063---Error: Invalid path or file name. in Foxpro GetData
+2017/05/14 09:03:05.102---Warning: Synchronization might Have Problem
+2017/05/14 09:03:23.120---Notification: Exiting File Logging Task
+2017/05/14 09:05:12.598---Notification: Sync Worker Launched
+2017/05/14 09:05:12.648---Notification: Foxpro Connection String Loaded
+2017/05/14 09:05:12.649---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 09:11:28.406---Notification: Sync Worker Launched
+2017/05/14 09:11:28.420---Notification: Foxpro Connection String Loaded
+2017/05/14 09:11:28.421---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 09:36:36.827---Notification: Foxpro Connection String Loaded
+2017/05/14 09:36:36.827---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 10:11:28.644---Notification: Foxpro Connection String Loaded
+2017/05/14 10:11:28.644---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 10:32:55.199---Notification: Foxpro Connection String Loaded
+2017/05/14 10:32:55.199---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 11:11:29.147---Notification: Foxpro Connection String Loaded
+2017/05/14 11:11:29.147---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 11:33:55.690---Notification: Foxpro Connection String Loaded
+2017/05/14 11:33:55.690---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 12:11:28.656---Notification: Foxpro Connection String Loaded
+2017/05/14 12:11:28.656---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 12:24:29.038---Error: 发生一个或多个错误。 in ValuedPatientWebAPI GetData
+2017/05/14 12:24:29.038---Warning: Synchronization might Have Problem
+2017/05/14 12:24:29.038---Notification: Foxpro Connection String Loaded
+2017/05/14 12:24:29.038---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 13:34:46.117---Notification: Foxpro Connection String Loaded
+2017/05/14 13:34:46.118---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 13:34:49.248---Error: 发生一个或多个错误。 in ValuedPatientWebAPI GetData
+2017/05/14 13:34:49.248---Warning: Synchronization might Have Problem
+2017/05/14 13:34:49.248---Notification: Foxpro Connection String Loaded
+2017/05/14 13:34:49.248---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/14 13:34:49.579---Error: 发生一个或多个错误。 in ValuedPatientWebAPI GetData
+2017/05/14 13:34:49.579---Warning: Synchronization might Have Problem
+2017/05/14 13:35:28.278---Notification: Exiting File Logging Task

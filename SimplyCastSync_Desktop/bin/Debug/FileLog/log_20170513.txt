@@ -1,0 +1,15 @@
+2017/05/13 01:52:55.962---Notification: Foxpro Connection String Loaded
+2017/05/13 01:52:55.962---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/13 01:52:58.475---Error: 发生一个或多个错误。 in SimplyCastWebAPI GetData
+2017/05/13 01:52:59.196---Warning: Synchronization might Have Problem
+2017/05/13 09:17:49.679---Notification: Foxpro Connection String Loaded
+2017/05/13 09:17:49.680---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/13 09:44:41.746---Notification: Foxpro Connection String Loaded
+2017/05/13 09:44:41.747---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/13 11:14:25.683---Error: 发生一个或多个错误。 in SimplyCastWebAPI GetData
+2017/05/13 11:14:25.808---Warning: Synchronization might Have Problem
+2017/05/13 11:14:26.814---Notification: Foxpro Connection String Loaded
+2017/05/13 11:14:26.814---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/13 11:35:58.612---Notification: Foxpro Connection String Loaded
+2017/05/13 11:35:58.612---Notification: SimplyCastWebApi Connection String Loaded
+2017/05/13 12:09:36.759---Notification: Exiting File Logging Task

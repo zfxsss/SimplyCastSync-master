@@ -1,0 +1,50 @@
+{
+  "version": "0.01",
+  "pairs": [
+    {
+      "source": {
+        "ds": "localfoxpro",
+        "dstype": "DataSet",
+        "fields": {
+          "uniquefield": "id",
+          "keyfields": [ "REFNUM" ],
+          "valuefields": [ "SENDDATE", "LETTER" ]
+        },
+        "querystring": "SELECT j.refnum, IIF(j.nextrecall<DATE() AND !ISNULL(k.senddate), k.senddate, IIF(!ISNULL(k.senddate), IIF(j.nextrecall<k.senddate, j.nextrecall, k.senddate), j.nextrecall)) as senddate, IIF(j.nextrecall<DATE() AND !ISNULL(k.senddate), k.letter, IIF(!ISNULL(k.senddate), IIF(j.nextrecall<k.senddate, j.nextrclet, k.letter), j.nextrclet)) as letter from vpatient j left join (SELECT distinct a.senddate, a.refnum, b.letter FROM (SELECT MIN(senddate) as senddate, refnum FROM vprecall WHERE senddate>DATE()-1 GROUP BY refnum) a inner join vprecall b on a.refnum = b.refnum and a.senddate = b.senddate AND TRIM(b.letter) <> ' ' ORDER BY a.refnum) k ON j.refnum = k.refnum"
+      },
+      "destination": {
+        "ds": "simplycastwebapi",
+        "dstype": "JObject",
+        "fields": {
+          "keyfieldsindex": [ "108" ],
+          "otherfieldsindex": [ "99", "107" ],
+          "existingjsonpath": "$.contacts[0].id"
+        },
+        "querystring": "contactmanager/contacts?query=`108` = \"{1}\"",
+        "updatestring": "?q=api/call&request=contactmanager/contacts/{1}",
+        "addstring": "?q=api/call&request=contactmanager/contacts"
+      },
+      "syncstrategy": "DataSetToSimplyCastAPI"
+    }
+
+  ],
+  "running": {
+    "interval": 3600,
+    "logdir": "logs",
+    "loginput": "Console_File",
+    "consolelog": [ "ALL" ],
+    "filelog": [ "Warning", "Error", "System", "Notification" ]
+  },
+  "datasource": [
+    {
+      "name": "localfoxpro",
+      "queryname": "FoxproData",
+      "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data;Mode=Read;"
+    },
+    {
+      "name": "simplycastwebapi",
+      "queryname": "SimplyCastWebApi",
+      "connstr": "UpdateAddress=https://app.valuedpatient.com;QueryAddress=https://api.valuedpatient.com;PublicKey=fdccc4c597be450ed04e5fc498190d5b087bbd63;SecretKey=66be6054f165116840816d1747f6f9e7f7faff31;"
+    }
+  ]
+}

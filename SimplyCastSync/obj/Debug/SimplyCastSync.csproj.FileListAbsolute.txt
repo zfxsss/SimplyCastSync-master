@@ -36,4 +36,3 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\ValuedPa
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\bin\Debug\ValuedPatientSync.pdb
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\ValuedPatientSync.dll
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\ValuedPatientSync.pdb
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync\obj\Debug\SimplyCastSync.csprojResolveAssemblyReference.cache
