@@ -105,5 +105,10 @@ namespace SimplyCastSync_Desktop
             Process.Start(@"FileLog");
         }
 
+        private void foxproDriverToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo info = new ProcessStartInfo(Directory.GetCurrentDirectory().ToString() + "\\VFPOLEDBSetup.msi");
+            Process.Start(info);
+        }
     }
 }

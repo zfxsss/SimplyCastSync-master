@@ -36,6 +36,8 @@
             this.currentLoggingFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openLoggingDirectoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dBDriverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.foxproDriverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +65,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loggingToolStripMenuItem,
-            this.aboutUsToolStripMenuItem});
+            this.aboutUsToolStripMenuItem,
+            this.dBDriverToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(351, 25);
@@ -101,6 +104,21 @@
             this.aboutUsToolStripMenuItem.Visible = false;
             this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
             // 
+            // dBDriverToolStripMenuItem
+            // 
+            this.dBDriverToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.foxproDriverToolStripMenuItem});
+            this.dBDriverToolStripMenuItem.Name = "dBDriverToolStripMenuItem";
+            this.dBDriverToolStripMenuItem.Size = new System.Drawing.Size(76, 21);
+            this.dBDriverToolStripMenuItem.Text = "DB Driver";
+            // 
+            // foxproDriverToolStripMenuItem
+            // 
+            this.foxproDriverToolStripMenuItem.Name = "foxproDriverToolStripMenuItem";
+            this.foxproDriverToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.foxproDriverToolStripMenuItem.Text = "Foxpro Driver";
+            this.foxproDriverToolStripMenuItem.Click += new System.EventHandler(this.foxproDriverToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -130,6 +148,8 @@
         private System.Windows.Forms.ToolStripMenuItem currentLoggingFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openLoggingDirectoryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dBDriverToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem foxproDriverToolStripMenuItem;
     }
 }
 

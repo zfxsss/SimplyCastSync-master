@@ -46,14 +46,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
-        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
+        "MsmKey" = "8:_AE93344B2DFD495EA79E34AB7FE43108"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
-        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
+        "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -64,6 +64,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B9629387143CBA15A3D70038EA641CA6"
+        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
         "OwnerKey" = "8:_3FEB2E1FEA444059A8DB45E6F9E89386"
         "MsmSig" = "8:_UNDEFINED"
@@ -71,13 +77,13 @@
         "Entry"
         {
         "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
-        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
+        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
-        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
+        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -95,13 +101,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
+        "OwnerKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -113,7 +113,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5D2FABF5D6699C323032DF862DF0B06"
+        "OwnerKey" = "8:_D381849D1A344F9496E5BC84EE8D0B50"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5A8BB6876FF8971BA9936AA76232F67E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -350,11 +356,6 @@
             "AssemblyAsmDisplayName" = "8:ValuedPatientSync, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5A8BB6876FF8971BA9936AA76232F67E"
-                    {
-                    "Name" = "8:ValuedPatientSync.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:ValuedPatientSync.dll"
             "TargetName" = "8:"
@@ -394,6 +395,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AE93344B2DFD495EA79E34AB7FE43108"
+            {
+            "SourcePath" = "8:..\\..\\..\\Downloads\\VFPOLEDBSetup.msi"
+            "TargetName" = "8:VFPOLEDBSetup.msi"
+            "Tag" = "8:"
+            "Folder" = "8:_C8E0F2036EC343C5863A621CFA08F30B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B9629387143CBA15A3D70038EA641CA6"
             {
             "AssemblyRegister" = "3:1"
@@ -401,11 +422,6 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_B9629387143CBA15A3D70038EA641CA6"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Newtonsoft.Json.dll"
             "TargetName" = "8:"
@@ -432,11 +448,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_C5D2FABF5D6699C323032DF862DF0B06"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
