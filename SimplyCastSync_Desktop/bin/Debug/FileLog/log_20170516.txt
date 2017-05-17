@@ -1,0 +1,10 @@
+2017/05/16 22:21:18.792---Notification: Sync Worker Launched
+2017/05/16 22:21:18.919---Notification: Foxpro Connection String Loaded
+2017/05/16 22:21:18.922---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/16 22:21:19.971---Error: Invalid path or file name. in Foxpro GetData
+2017/05/16 22:21:20.015---Warning: Synchronization might Have Problem
+2017/05/16 22:21:20.015---Notification: Foxpro Connection String Loaded
+2017/05/16 22:21:20.015---Notification: ValuedPatientWebApi Connection String Loaded
+2017/05/16 22:21:20.142---Error: Invalid path or file name. in Foxpro GetData
+2017/05/16 22:21:20.208---Warning: Synchronization might Have Problem
+2017/05/16 22:21:31.375---Notification: Exiting File Logging Task
