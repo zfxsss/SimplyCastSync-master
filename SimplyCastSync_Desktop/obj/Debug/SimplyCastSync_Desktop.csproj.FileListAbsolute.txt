@@ -41,7 +41,6 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_backup4.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup.json
-C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\Newtonsoft.Json.dll
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\Newtonsoft.Json.xml
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\obj\Debug\SimplyCastSync_Desktop.csprojResolveAssemblyReference.cache
@@ -89,3 +88,5 @@ C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup6.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup7.json
 C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup8.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple_backup9.json
+C:\Users\zhefeng\Desktop\SimplyCastSync-master\SimplyCastSync_Desktop\bin\Debug\process_config_simple.json

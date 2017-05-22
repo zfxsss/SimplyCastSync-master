@@ -104,7 +104,7 @@
     <None Include="process_config_simple_backup.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="process_config_simple.json">
+    <None Include="process_config_simple_backup9.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="process_config_backup5.json">
@@ -117,6 +117,9 @@
     <None Include="process_config_backup2.json" />
     <None Include="process_config_backup.json" />
     <None Include="process_config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="process_config_simple.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
