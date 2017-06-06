@@ -38,8 +38,8 @@ namespace SimplyCastSync.SimplyCast_Sunix
                         src = pair["source"] as JObject;
                         dest = pair["destination"] as JObject;
 
-                        var src_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["source"]["ds"].ToString()).First();
-                        var dest_ds_config = Content["datasource"].Where(x => x["name"].ToString() == pair["destination"]["ds"].ToString()).First();
+                        var src_ds_config = Content["datasource"].First(x => x["name"].ToString() == pair["source"]["ds"].ToString());
+                        var dest_ds_config = Content["datasource"].First(x => x["name"].ToString() == pair["destination"]["ds"].ToString());
 
                         // DataSet => JObject
                         if ((src["dstype"].ToString() == "DataSet") && (dest["dstype"].ToString() == "JObject"))

@@ -92,7 +92,7 @@
     {
       "name": "localfoxpro",
       "queryname": "FoxproData",
-      "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data;Mode=Read;"
+      "connstr": "Provider=VFPOLEDB.1;Data Source=C:\\v2k\\Data2;Mode=Read;"
     },
     {
       "name": "simplycastwebapi",
